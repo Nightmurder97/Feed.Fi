@@ -1,0 +1,52 @@
+// Feed.Fi - Plantilla de Configuración de Desarrollo
+// 
+// INSTRUCCIONES:
+// 1. Copia este archivo como 'DeveloperSettings.xcconfig' (sin .example)
+// 2. Modifica los valores según tu configuración local
+// 3. NUNCA commits DeveloperSettings.xcconfig al repositorio
+//
+// Este archivo centraliza toda la configuración específica del entorno
+// siguiendo las mejores prácticas de desarrollo en iOS/macOS.
+
+// === CONFIGURACIÓN DE IDENTIDAD ===
+// Reemplaza con tu Apple Developer Team ID
+DEVELOPMENT_TEAM = YOUR_TEAM_ID_HERE
+
+// Prefijo único para tus Bundle IDs (usa dominio invertido)
+BUNDLE_ID_PREFIX = com.yourdomain
+
+// === CONFIGURACIÓN DE FIRMAR CÓDIGO ===
+// Certificado para desarrollo local
+CODE_SIGN_IDENTITY = Apple Development
+
+// === CONFIGURACIÓN DE ENDPOINTS ===
+// URLs de API para desarrollo/testing
+GEMINI_API_ENDPOINT = https://generativelanguage.googleapis.com/v1beta
+FEEDBIN_API_ENDPOINT = https://api.feedbin.com/v2
+
+// === CONFIGURACIÓN DE CARACTERÍSTICAS ===
+// Habilitar/deshabilitar características en desarrollo
+ENABLE_CLOUDKIT = YES
+ENABLE_AI_FEATURES = YES
+ENABLE_DEBUG_MENU = YES
+
+// === CONFIGURACIÓN DE COMPILACIÓN ===
+// Nivel de optimización para desarrollo
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+GCC_OPTIMIZATION_LEVEL = 0
+
+// === NOTAS IMPORTANTES ===
+//
+// 🔒 SEGURIDAD:
+// - NUNCA incluyas API keys en este archivo
+// - Usa variables de entorno o Keychain para secretos
+// - El archivo DeveloperSettings.xcconfig está en .gitignore
+//
+// 🔧 RESOLUCIÓN DE PROBLEMAS:
+// - Si tienes errores de firma: verifica DEVELOPMENT_TEAM
+// - Si tienes errores de Bundle ID: verifica BUNDLE_ID_PREFIX
+// - Para limpiar compilación: ejecuta ./scripts/clean-build.sh
+//
+// 📝 DOCUMENTACIÓN:
+// - Variables disponibles: https://docs.anthropic.com/claude-code
+// - Guía de configuración: README.md

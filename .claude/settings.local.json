@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(cd /Users/andres.dex/Projects/Active/Feed.Fi)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(swiftc:*)",
+      "Bash(swift build)"
+    ],
+    "deny": []
+  }
+}

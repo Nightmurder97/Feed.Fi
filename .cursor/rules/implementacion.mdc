@@ -1,0 +1,15 @@
+# Reglas de Implementación
+
+Directrices para desarrollo de soluciones robustas, escalables y mantenibles. Incluye refactorización centralizada, aislamiento de problemas, manejo defensivo y optimización de recursos.
+
+description: |
+  - Priorizar soluciones robustas, escalables y mantenibles sobre parches rápidos
+  - Al refactorizar lógica centralizada, actualizar TODOS los componentes consumidores
+  - Para errores runtime/TypeScript complejos, simplificar temporalmente el componente principal
+  - Incluir validaciones robustas y manejo de casos límite (null, 0, NaN, Infinity)
+  - Optimizar rendimiento considerando recursos (reducir llamadas API, optimizar prompts IA)
+  - Manejo defensivo en funciones críticas, especialmente cálculos matemáticos
+
+globs: ["**/*.py", "**/*.js", "**/*.ts", "**/*.jsx", "**/*.tsx", "**/*.vue", "**/*.svelte"]
+alwaysApply: true
+---

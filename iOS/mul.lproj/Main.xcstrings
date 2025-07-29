@@ -1,0 +1,174 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0Hz-Dv-MhU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"0Hz-Dv-MhU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "2qz-M5-Yhk.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Next Article\"; ObjectID = \"2qz-M5-Yhk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Article"
+          }
+        }
+      }
+    },
+    "2w5-e9-C2V.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Next Unread\"; ObjectID = \"2w5-e9-C2V\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Unread"
+          }
+        }
+      }
+    },
+    "7GV-PV-YVq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Blog Author\"; ObjectID = \"7GV-PV-YVq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Blog Author"
+          }
+        }
+      }
+    },
+    "fTv-eX-72r.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Item\"; ObjectID = \"fTv-eX-72r\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item"
+          }
+        }
+      }
+    },
+    "hy0-LS-MzE.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Toggle Read\"; ObjectID = \"hy0-LS-MzE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Toggle Read"
+          }
+        }
+      }
+    },
+    "iFp-rn-HhQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Article Title\"; ObjectID = \"iFp-rn-HhQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Article Title"
+          }
+        }
+      }
+    },
+    "JEX-9P-axG.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"Detail\"; ObjectID = \"JEX-9P-axG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "TlU-Pg-ATe.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Settings\"; ObjectID = \"TlU-Pg-ATe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "v4j-fq-23N.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Previous Article\"; ObjectID = \"v4j-fq-23N\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Article"
+          }
+        }
+      }
+    },
+    "wcC-1L-ug4.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Timeline\"; ObjectID = \"wcC-1L-ug4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Timeline"
+          }
+        }
+      }
+    },
+    "wU4-eH-wC9.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Toggle Starred\"; ObjectID = \"wU4-eH-wC9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Toggle Starred"
+          }
+        }
+      }
+    },
+    "YsT-Lt-Zry.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Blog Name\"; ObjectID = \"YsT-Lt-Zry\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Blog Name"
+          }
+        }
+      }
+    },
+    "Zdf-7t-Un8.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Feeds\"; ObjectID = \"Zdf-7t-Un8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Feeds"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

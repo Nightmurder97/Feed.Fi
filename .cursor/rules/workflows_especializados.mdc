@@ -1,0 +1,17 @@
+# Workflows Especializados
+
+Directrices para tareas comunes de desarrollo y operaciones de IA. Incluye orquestación multi-IA, optimización de entorno, manejo de scripts reutilizables y procesamiento de datos.
+
+description: |
+  - Coordinar múltiples IAs en paralelo con arquitectura de capas
+  - Identificar roles primarios y secundarios en sistemas multi-IA
+  - Usar protocolos de comunicación estándar (STATUS_UPDATE, TASK_COMPLETED)
+  - Seguir guía universal para configuración inicial de proyectos
+  - Crear/actualizar .cursorignore para optimización de indexación
+  - Preferir reutilización de scripts existentes en @/Scripts o utils/
+  - Identificar scripts de pipeline para limpieza, normalización, scoring
+  - Organizar prompts en subcarpetas modulares según tarea
+
+globs: ["**/scripts/**/*", "**/utils/**/*", "**/@/Scripts/**/*", "**/prompts/**/*", "**/Data/**/*", "**/.cursorignore"]
+alwaysApply: true
+---

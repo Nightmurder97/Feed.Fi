@@ -1,0 +1,18 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "2Ec-kd-q2K.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Subscribe to Feed\"; ObjectID = \"2Ec-kd-q2K\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Subscribe to Feed"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

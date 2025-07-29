@@ -1,0 +1,7 @@
+
+// Signing.xcconfig
+#include "Base.xcconfig"
+
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_IDENTITY = Apple Development
+PROVISIONING_PROFILE_SPECIFIER = com.mycompany.devprofile

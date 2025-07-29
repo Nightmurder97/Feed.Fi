@@ -1,0 +1,14 @@
+# Reglas de Comunicación
+
+Principios fundamentales para la comunicación efectiva en proyectos de desarrollo asistido por IA. Incluye idioma, minimización de chat, formato estándar y preferencia por documentación en archivos.
+
+description: |
+  - Siempre responder en español
+  - Reducir comunicación en chat; documentar en archivos .md
+  - Usar formato estándar de comunicación entre IAs
+  - Preferir documentación en archivos sobre explicaciones en chat
+  - Minimizar comunicación directa, priorizar documentación persistente
+
+globs: ["**/*.md", "**/*.py", "**/*.js", "**/*.ts", "**/*.jsx", "**/*.tsx"]
+alwaysApply: true
+---

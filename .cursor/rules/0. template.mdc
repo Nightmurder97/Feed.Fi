@@ -1,0 +1,7 @@
+# Template de Reglas Cursor AI
+
+Plantilla universal para configurar reglas operativas en proyectos de desarrollo asistido por IA. Incluye principios de comunicación, seguridad, diagnóstico, implementación y documentación.
+description:
+globs:
+alwaysApply: false
+---

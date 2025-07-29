@@ -1,0 +1,19 @@
+# Reglas Específicas del Usuario
+
+Preferencias y reglas personalizadas del usuario para comunicación, seguridad, diagnóstico, implementación, documentación y manejo de archivos. Incluye convenciones de nomenclatura y reutilización de scripts.
+
+description: |
+  - Always respond in spanish
+  - Minimizar comunicación en chat - Todo se documenta en archivos .md
+  - Usar formato estándar de comunicación entre IAs
+  - Preferir documentación en archivos sobre explicaciones en chat
+  - Reutilizar scripts existentes en carpeta @/Scripts en lugar de crear nuevos
+  - Documentar todo el proceso de extracción para reutilización futura
+  - Explicar qué se va a hacer antes de proceder
+  - Especificar siempre la fuente de origen al proporcionar información
+  - Usar nombres de archivo con palabras separadas por guiones bajos, primera letra mayúscula
+  - Usar sufijos en nombres de archivo para denotar variantes o versiones
+
+globs: ["**/*"]
+alwaysApply: true
+---

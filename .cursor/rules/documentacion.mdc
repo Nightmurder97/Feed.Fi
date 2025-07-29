@@ -1,0 +1,15 @@
+# Reglas de Documentación
+
+Criterios para documentación efectiva y estructurada. Enfoque en problemas complejos, análisis de causa raíz, formato estructurado y actualización continua. Evita documentación trivial.
+
+description: |
+  - Documentar ÚNICAMENTE problemas complejos, apartados importantes del proceso
+  - NO documentar pasos menores, acciones obvias o pequeños chequeos rutinarios
+  - Enfocarse en desafíos técnicos significativos y análisis de causa raíz
+  - Usar formato Problema/Solución/Herramientas solo para cuestiones no triviales
+  - Mantener documentación actualizada con cambios en el proyecto
+  - Priorizar soluciones sustanciales que proporcionen valor de aprendizaje
+
+globs: ["**/*.md", "**/README.md", "**/documentation/**/*", "**/docs/**/*"]
+alwaysApply: true
+---

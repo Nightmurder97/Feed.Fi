@@ -1,0 +1,15 @@
+# Marco de Análisis de Proyectos
+
+Sistema universal para entender codebases nuevos. Incluye visión general del proyecto, estructura del codebase, flujos de trabajo de desarrollo y patrones de integración y dependencias.
+
+description: |
+  - Buscar archivos como main_project_instructions.md, README.md para contexto
+  - Identificar estructura esperada: contexto, tareas principales, instrucciones específicas
+  - Mapear organización de archivos y directorios (src/, backend/, frontend/, data/, prompts/)
+  - Identificar patrones de nomenclatura y componentes mayores
+  - Entender flujos de trabajo: configuración, build, testing, ejecución, depuración
+  - Analizar patrones de integración: APIs externas, bases de datos, manejo de archivos
+
+globs: ["**/README.md", "**/main_project_instructions.md", "**/project_structure.md", "**/setup_guide*.md", "**/package.json", "**/requirements.txt"]
+alwaysApply: true
+---

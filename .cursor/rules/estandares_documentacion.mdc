@@ -1,0 +1,16 @@
+# Estándares de Documentación y Reportes
+
+Protocolos para generar documentación y reportes claros. Incluye documentación general, reportes de progreso y QA, y reportes de investigación y análisis con formatos estructurados.
+
+description: |
+  - Preferir formato Markdown para toda documentación en archivos
+  - Ubicar documentación en directorios lógicos (documentation/, prompts/, Data/md/)
+  - Usar nombres descriptivos con guiones o guiones bajos
+  - Utilizar plantillas exhaustivas para PRs con secciones clave
+  - Implementar checklists paso a paso para verificar progreso
+  - Estructurar reportes de investigación con avances y recomendaciones
+  - Documentar esfuerzos de extracción con tasas de éxito
+
+globs: ["**/*.md", "**/documentation/**/*", "**/docs/**/*", "**/prompts/**/*", "**/Data/md/**/*"]
+alwaysApply: true
+---

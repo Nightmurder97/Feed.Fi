@@ -1,0 +1,15 @@
+# Reglas de Seguridad
+
+Protocolos de seguridad para manejo de secretos, control de versiones, operaciones Git críticas y commits frecuentes. Asegura la protección de credenciales y la integridad del repositorio.
+
+description: |
+  - Manejar secretos EXCLUSIVAMENTE mediante variables de entorno
+  - Verificar que archivos .env estén SIEMPRE en .gitignore
+  - Hacer COPIA DE SEGURIDAD antes de operaciones Git críticas
+  - Verificar repositorios Git anidados (eliminar .git/ si no son submódulos)
+  - Realizar commits frecuentes y pequeños
+  - Sincronizar (git pull) a menudo con rama remota
+
+globs: ["**/.env*", "**/.gitignore", "**/package.json", "**/requirements.txt", "**/*.py", "**/*.js", "**/*.ts"]
+alwaysApply: true
+---

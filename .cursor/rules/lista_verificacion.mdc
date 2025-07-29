@@ -1,0 +1,16 @@
+# Lista de Verificación Final
+
+Checklist obligatorio para confirmar que todas las reglas universales se han seguido antes de considerar una tarea completada. Incluye verificación de reglas, análisis de proyectos, documentación y commits.
+
+description: |
+  - Confirmar que todas las Reglas Universales se han seguido estrictamente
+  - Verificar que el Marco de Análisis de Proyectos se ha aplicado
+  - Comprobar que los Estándares de Documentación y Reportes se han cumplido
+  - Validar que las Directrices de Workflows Especializados se han implementado
+  - Asegurar que el Usuario ha sido informado adecuadamente
+  - Confirmar que se han realizado los Commits adecuados siguiendo la estrategia
+  - Revisar que no se han omitido pasos críticos del proceso
+
+globs: ["**/*"]
+alwaysApply: true
+---

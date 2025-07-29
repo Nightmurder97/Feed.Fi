@@ -1,0 +1,2457 @@
+As your thought partner and paid consultant, I am here to help you quickly and effectively analyze and understand information from the provided sources to make critical strategic recommendations. My role is to guide you through frameworks, required analysis, and to provide concise, well-reasoned, and supported recommendations. I can offer general summaries, specific facts, clarification on complex topics, and help navigate the materials and terminology. I will always conclude my responses with a specific next step to facilitate further analysis or discussion.
+I have reviewed the provided knowledge base, which includes detailed instructions for an AI coding assistant migrating a crypto analysis suite, various checklists and guides for project setup and execution, commit strategies, documentation protocols, AI collaboration frameworks, web extraction processes, project optimization reports, and comprehensive research on AI-assisted software development and multi-AI orchestration.
+Here are the templates crafted from your sources, designed to serve as clear instructions, rules, and persistent memories for an AI:
+--------------------------------------------------------------------------------
+1. Project Prompt / Principal Instructions Template
+This template serves as the foundational instruction set for an AI Coding Assistant, outlining the project's context, problems, objectives, and main tasks. It acts as the primary directive memory for the AI.
+Purpose for AI: Instructions, Context Memory, Objective Setting.
+Source(s): (Based on "0. ai_coding_assistant_prompt.md")
+Template Structure:
+### 🚀 [PROJECT_NAME] - [MIGRATION_OR_ENHANCEMENT_TITLE]
+#### 📋 PROMPT PRINCIPAL
+Eres un **AI Coding Assistant** especializado en [TECHNOLOGIES] que debe [MAIN_MISSION]. Tu objetivo es implementar **TODAS** las mejoras identificadas usando los archivos proporcionados como referencia.
+
+##### CONTEXTO DEL PROYECTO:
+*   **Proyecto:** [PROJECT_DESCRIPTION]
+*   **Problemas actuales:** [LIST_CURRENT_PROBLEMS]
+*   **Objetivo:** [TRANSFORMATION_GOAL]
+
+##### ARCHIVOS DE REFERENCIA DISPONIBLES:
+--------------------------------------------------------------------------------
+
+#### 🎯 TAREAS PRINCIPALES (EJECUTAR EN ORDEN)
+##### FASE 1: [PHASE_1_TITLE] (CRÍTICO)
+[DESCRIPTION_OF_PHASE_1_TASKS]
+
+##### FASE 2: [PHASE_2_TITLE]
+[DESCRIPTION_OF_PHASE_2_TASKS]
+
+##### FASE 3: [PHASE_3_TITLE] (USAR ARCHIVOS DE REFERENCIA)
+###### 3.1 Reemplazar/Crear archivos principales:
+1.  **[FILE_PATH]** - Copiar de [REFERENCE_FILE]
+2.  **[FILE_PATH]** - Copiar de [REFERENCE_FILE]
+... (List all files to be replaced/created)
+
+###### 3.2 Actualizar App.tsx con cambios críticos:
+**CAMBIO OBLIGATORIO EN CONSTANTES:**
+[SPECIFIC_CONSTANT_CHANGES]
+
+###### 3.3 Configurar [CONFIGURATION_TOOL]:
+[CONFIGURATION_DETAILS]
+
+##### FASE 4: [PHASE_4_TITLE]
+###### 4.1 Actualizar src/main.tsx:
+[MAIN_TSX_UPDATE_DETAILS]
+
+##### FASE 5: [PHASE_5_TITLE]
+###### 5.1 Checklist de funcionamiento:
+*   [ ] **[FUNCTIONALITY_ITEM_1]**
+*   [ ] **[FUNCTIONALITY_ITEM_2]**
+... (List all checklist items)
+
+###### 5.2 Comandos de verificación:
+[VERIFICATION_COMMANDS]
+
+--------------------------------------------------------------------------------
+
+#### ⚡ INSTRUCCIONES ESPECÍFICAS
+##### CRÍTICO - Variables de Entorno:
+[ENV_VARS_DETAILS]
+
+##### CRÍTICO - Dependencias Exactas:
+Tu package.json debe incluir exactamente:
+[EXACT_DEPENDENCIES_LIST]
+
+##### CRÍTICO - Gradientes Exactos:
+Los heatmaps DEBEN usar estos colores RGB exactos:
+*   [COLOR_CONDITION_1]: [RGB_VALUE_1] ([COLOR_NAME_1])
+*   [COLOR_CONDITION_2]: [RGB_VALUE_2] ([COLOR_NAME_2])
+... (List all exact color gradients)
+
+--------------------------------------------------------------------------------
+
+#### 📊 RESULTADO ESPERADO
+Al completar la migración, la aplicación debe:
+1.  **[EXPECTED_RESULT_1]**
+2.  **[EXPECTED_RESULT_2]**
+... (List all expected application results)
+
+--------------------------------------------------------------------------------
+
+#### 🔧 TROUBLESHOOTING
+##### Si [ISSUE_1]:
+[SOLUTION_1]
+
+##### Si [ISSUE_2]:
+[SOLUTION_2]
+... (List common troubleshooting steps)
+
+--------------------------------------------------------------------------------
+
+#### 📝 ENTREGABLES
+1.  **[DELIVERABLE_1]**
+2.  **[DELIVERABLE_2]**
+... (List all required deliverables)
+
+**¡Ejecuta todas las fases en orden y verifica cada paso antes de continuar!**
+Example Usage for AI: An AI assigned to the "Crypto Analysis Suite Migration" project would load this template as its primary instruction set. It would parse the "Objetivo" section to understand the desired outcome, then systematically follow the "TAREAS PRINCIPALES" phases, consulting the "INSTRUCCIONES ESPECÍFICAS" for critical details like exact dependencies and RGB values, and finally validate its work against the "RESULTADO ESPERADO" and "Checklist de funcionamiento".
+--------------------------------------------------------------------------------
+2. Background Agent Execution Checklist Template
+This template provides a comprehensive checklist for background agents to follow before, during, and after project execution phases, ensuring all steps are verified.
+Purpose for AI: Execution Instructions, Step-by-Step Verification, Memory of Completed Steps, Quality Assurance Rules.
+Source(s): (Based on "0. background_agent_checklist.md")
+Template Structure:
+### 🤖 Background Agent Execution Checklist
+#### 📋 PRE-EXECUTION SETUP
+##### Environment Verification
+*   [ ] **[VERIFICATION_ITEM_1]:** [DETAILS_1]
+*   [ ] **[VERIFICATION_ITEM_2]:** [DETAILS_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🏗️ PHASE 1: PROJECT INITIALIZATION
+##### 1.1 Clean Project Setup
+*   [ ] [SETUP_TASK_1]
+*   [ ] [SETUP_TASK_2]
+...
+##### 1.2 Dependencies Installation
+**CRITICAL: Install exact versions to avoid conflicts**
+**Checkpoint:**
+*   [ ] [DEPENDENCY_CHECK_1]
+*   [ ] [DEPENDENCY_CHECK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🏗️ PHASE 2: FILE STRUCTURE SETUP
+##### 2.1 Directory Creation
+**Verify Structure:**
+*   [ ] [DIRECTORY_CHECK_1]
+*   [ ] [DIRECTORY_CHECK_2]
+...
+##### 2.2 Reference Files Implementation
+**Copy each file from [SOURCE_LOCATION] to target location:**
+*   [ ] **[SOURCE_FILE_1]** → [TARGET_LOCATION_1]
+*   [ ] **[SOURCE_FILE_2]** → [TARGET_LOCATION_2]
+...
+##### 2.3 CSV Data Integration
+*   [ ] [CSV_TASK_1]
+*   [ ] [CSV_TASK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔧 PHASE 3: CONFIGURATION FILES
+##### 3.1 TailwindCSS Configuration
+**Update tailwind.config.js:**
+*   [ ] [TAILWIND_TASK_1]
+*   [ ] [TAILWIND_TASK_2]
+...
+##### 3.2 Environment Variables
+*   [ ] [ENV_VAR_TASK_1]
+*   [ ] [ENV_VAR_TASK_2]
+...
+##### 3.3 React Query Setup
+**Update src/main.tsx:**
+*   [ ] [REACT_QUERY_TASK_1]
+*   [ ] [REACT_QUERY_TASK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### ⚡ PHASE 4: CRITICAL CODE CHANGES
+##### 4.1 App.tsx Constants Fix (MOST CRITICAL)
+**MANDATORY CHANGE - Locate and update these exact lines:**
+[MANDATORY_CHANGE_DETAILS]
+**Verification Commands:**
+*   [ ] [VERIFICATION_CMD_1]
+*   [ ] [VERIFICATION_CMD_2]
+...
+##### 4.2 Import Statements Verification
+**In updated [FILE_NAME], verify these imports exist:**
+*   [ ] [IMPORT_STATEMENT_1]
+*   [ ] [IMPORT_STATEMENT_2]
+...
+##### 4.3 RGB Color Codes Verification
+**Verify exact RGB values in [FILE_NAME]:**
+*   [ ] [COLOR_VERIFICATION_1]
+*   [ ] [COLOR_VERIFICATION_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🧪 PHASE 5: FUNCTIONAL VERIFICATION
+##### 5.1 Build and Start
+**Startup Checklist:**
+*   [ ] [STARTUP_CHECK_1]
+*   [ ] [STARTUP_CHECK_2]
+...
+##### 5.2 CSV Integration Test
+**Browser DevTools Console - Look for these messages:**
+*   [ ] [CSV_TEST_MESSAGE_1]
+*   [ ] [CSV_TEST_MESSAGE_2]
+...
+##### 5.3 Heatmap Functionality Test
+**Navigate to Heatmap section:**
+*   [ ] [HEATMAP_TEST_1]
+*   [ ] [HEATMAP_TEST_2]
+...
+##### 5.4 Sectorial Analysis Test
+**Navigate to Sectors section:**
+*   [ ] [SECTOR_TEST_1]
+*   [ ] [SECTOR_TEST_2]
+...
+##### 5.5 Statistics Test
+**Navigate to Statistics section:**
+*   [ ] [STATISTICS_TEST_1]
+*   [ ] [STATISTICS_TEST_2]
+...
+##### 5.6 AI Analysis Test
+**Navigate to AI Analysis section:**
+*   [ ] [AI_ANALYSIS_TEST_1]
+*   [ ] [AI_ANALYSIS_TEST_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📊 PHASE 6: PERFORMANCE VERIFICATION
+##### 6.1 Memory and Performance
+*   [ ] [PERFORMANCE_METRIC_1]
+*   [ ] [PERFORMANCE_METRIC_2]
+...
+##### 6.2 Data Accuracy
+*   [ ] [ACCURACY_CHECK_1]
+*   [ ] [ACCURACY_CHECK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔍 PHASE 7: FINAL VALIDATION
+##### 7.1 Visual Comparison
+**Compare with reference images:**
+*   [ ] [VISUAL_CHECK_1]
+*   [ ] [VISUAL_CHECK_2]
+...
+##### 7.2 Error Handling
+*   [ ] [ERROR_HANDLING_CHECK_1]
+*   [ ] [ERROR_HANDLING_CHECK_2]
+...
+##### 7.3 Code Quality
+*   [ ] [CODE_QUALITY_CHECK_1]
+*   [ ] [CODE_QUALITY_CHECK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🚀 DEPLOYMENT READINESS
+##### 8.1 Build Verification
+*   [ ] [BUILD_CHECK_1]
+*   [ ] [BUILD_CHECK_2]
+...
+##### 8.2 Environment Configuration
+*   [ ] [PROD_ENV_CONFIG_1]
+*   [ ] [PROD_ENV_CONFIG_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### ✅ SUCCESS CRITERIA
+**Application is considered successfully migrated when:**
+1.  ✅ **[CRITERIA_1]**
+2.  ✅ **[CRITERIA_2]**
+...
+
+--------------------------------------------------------------------------------
+
+#### 🆘 FAILURE RECOVERY
+**If critical issues occur:**
+##### Rollback Strategy:
+1.  [ROLLBACK_STEP_1]
+2.  [ROLLBACK_STEP_2]
+...
+##### Common Issues:
+*   **[ISSUE_TYPE_1]:** [RESOLUTION_1]
+*   **[ISSUE_TYPE_2]:** [RESOLUTION_2]
+...
+
+**Upon completion, generate comprehensive Pull Request documentation with all changes implemented.**
+Example Usage for AI: Before starting implementation, the AI would process this checklist to understand all verification points. As it executes each task, it would update the [ ] checkboxes to [x], serving as its internal progress tracker and ensuring adherence to detailed requirements like exact RGB values or specific console messages. In case of issues, it would refer to the "FAILURE RECOVERY" section for troubleshooting.
+--------------------------------------------------------------------------------
+3. Commit Strategy Template
+This template defines the guidelines for creating consistent and atomic commits throughout the project lifecycle, including pre-migration and migration phases.
+Purpose for AI: Rule for Version Control, Standardization, Audit Trail Memory.
+Source(s): (Based on "0. commit_strategy.md")
+Template Structure:
+### 🔄 Estrategia de Commits - [PROJECT_NAME] Migration
+#### 📋 Pre-Migration Commits (AHORA)
+##### Commit 1: [COMMIT_1_DESCRIPTION]
+##### Commit 2: [COMMIT_2_DESCRIPTION]
+##### Commit 3: [COMMIT_3_DESCRIPTION]
+
+--------------------------------------------------------------------------------
+
+#### 🚀 Migration Commits (BACKGROUND AGENT)
+##### Commit Strategy for Background Agent:
+El Background Agent debería hacer commits **incrementales** siguiendo esta estrategia:
+###### Phase 1: [PHASE_1_TITLE]
+[DESCRIPTION_OF_PHASE_1_COMMITS]
+###### Phase 2: [PHASE_2_TITLE]
+[DESCRIPTION_OF_PHASE_2_COMMITS]
+... (List all migration phases with commit strategies)
+
+--------------------------------------------------------------------------------
+
+#### 📝 Commit Message Standards
+##### Format:
+[TYPE]: [DESCRIPTION] ([OPTIONAL_SCOPE]) [EMOJI]
+Example: feat: Add dynamic statistics dashboard (statistics) 📊
+
+##### Types:
+*   **feat:** New features
+*   **fix:** Bug fixes
+*   **docs:** Documentation
+*   **style:** Formatting, CSS
+*   **refactor:** Code restructuring
+*   **perf:** Performance improvements
+*   **test:** Adding tests
+*   **setup:** Environment/build setup
+*   **data:** Data files or datasets
+
+##### Emojis:
+*   📋 Planning/Documentation
+*   🔧 Configuration/Tools
+*   📊 Data/CSV
+*   🏗️ Setup/Environment
+*   🎨 UI/Visual components
+*   🤖 AI/Analysis features
+*   🚀 Performance/Optimization
+*   🎉 Major milestones
+
+--------------------------------------------------------------------------------
+
+#### 🔍 Pre-Commit Checklist
+##### Antes de cada commit verificar:
+*   [ ] **Files staged:** git status shows correct files
+*   [ ] **No secrets:** No API keys or passwords in code
+*   [ ] **File size:** Large files (>10MB) in Git LFS
+*   [ ] **Message quality:** Clear, descriptive commit message
+*   [ ] **Related changes:** All changes in commit are related
+##### Para el commit final de planificación:
+*   [ ] [PLANNING_COMMIT_ITEM_1]
+*   [ ] [PLANNING_COMMIT_ITEM_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🎯 Execution Commands
+##### Ejecutar ahora (Pre-Migration):
+[PRE_MIGRATION_COMMANDS]
+
+--------------------------------------------------------------------------------
+
+#### 🎉 Beneficios de esta Estrategia
+##### Control de Versiones:
+*   ✅ **[BENEFIT_1]**
+*   ✅ **[BENEFIT_2]**
+...
+##### Colaboración:
+*   ✅ **[BENEFIT_1]**
+*   ✅ **[BENEFIT_2]**
+...
+##### Calidad:
+*   ✅ **[BENEFIT_1]**
+*   ✅ **[BENEFIT_2]**
+...
+
+**¡Ejecuta estos commits ahora y luego el Background Agent tendrá una base sólida y documentada para trabajar!**
+Example Usage for AI: An AI performing project migration would consult this template before making any git commit. It would enforce the Commit Message Standards (Type, Description, Emoji) and run through the Pre-Commit Checklist to ensure atomic, clean commits without secrets, serving as a core rule for version control.
+--------------------------------------------------------------------------------
+4. Environment Setup Guide Template
+This template provides a comprehensive, step-by-step guide for setting up the development environment, ensuring all prerequisites and configurations are met.
+Purpose for AI: Instructions, Setup Memory, Troubleshooting Guide.
+Source(s): (Based on "0. environment_setup_guide.md")
+Template Structure:
+### 🛠️ Guía Completa de Configuración del Entorno - [PROJECT_NAME]
+#### 📋 Requisitos del Sistema
+##### Versiones Obligatorias (CRÍTICO):
+*   **Node.js:** [VERSION_REQUIREMENT_NODEJS]
+*   **npm:** [VERSION_REQUIREMENT_NPM]
+*   **Sistema Operativo:** [OS_REQUIREMENT]
+##### Verificación del Sistema:
+[SYSTEM_VERIFICATION_COMMANDS]
+
+--------------------------------------------------------------------------------
+
+#### 🏗️ Configuración del Proyecto (Paso a Paso)
+##### Paso 1: Preparación del Directorio
+[DIRECTORY_PREPARATION_STEPS]
+##### Paso 2: Inicialización del Proyecto
+[PROJECT_INITIALIZATION_STEPS]
+##### Paso 3: Instalación de Dependencias Específicas
+[DEPENDENCY_INSTALLATION_STEPS]
+##### Paso 4: Configuración de TailwindCSS
+**Editar tailwind.config.js:**
+[TAILWIND_CONFIG_JS_EDITS]
+**Actualizar src/index.css:**
+[SRC_INDEX_CSS_UPDATES]
+
+--------------------------------------------------------------------------------
+
+#### 📁 Estructura de Directorios
+##### Crear estructura completa:
+[DIRECTORY_CREATION_COMMANDS]
+##### Estructura final esperada:
+[EXPECTED_FINAL_DIRECTORY_STRUCTURE]
+
+--------------------------------------------------------------------------------
+
+#### 🔐 Configuración de Variables de Entorno
+##### Crear archivo .env:
+[ENV_FILE_CREATION_STEPS]
+##### Crear archivo .env.example:
+[ENV_EXAMPLE_FILE_CREATION_STEPS]
+##### Actualizar .gitignore:
+[GITIGNORE_UPDATES]
+
+--------------------------------------------------------------------------------
+
+#### 📦 Verificación de Dependencias
+##### Comando de verificación completa:
+[FULL_DEPENDENCY_VERIFICATION_COMMAND]
+##### Resolución de conflictos de dependencias:
+[DEPENDENCY_CONFLICT_RESOLUTION_STEPS]
+
+--------------------------------------------------------------------------------
+
+#### 🚀 Configuración de React Query
+##### Actualizar src/main.tsx:
+[REACT_QUERY_MAIN_TSX_UPDATES]
+
+--------------------------------------------------------------------------------
+
+#### 🔍 Verificación Final del Entorno
+##### Lista de verificación completa:
+###### 1. Versiones del sistema:
+[SYSTEM_VERSION_CHECKS]
+###### 2. Estructura de archivos:
+[FILE_STRUCTURE_CHECKS]
+###### 3. Dependencias críticas:
+[CRITICAL_DEPENDENCY_CHECKS]
+###### 4. Configuración:
+[CONFIGURATION_CHECKS]
+###### 5. Test de compilación:
+[COMPILATION_TEST_COMMANDS]
+
+##### Comando de inicio:
+[STARTUP_COMMAND]
+
+--------------------------------------------------------------------------------
+
+#### 🆘 Troubleshooting Común
+##### Error: "[ERROR_TYPE_1]"
+[SOLUTION_1]
+##### Error: "[ERROR_TYPE_2]"
+[SOLUTION_2]
+... (List common errors and solutions)
+
+--------------------------------------------------------------------------------
+
+#### ✅ Entorno Listo
+**Una vez completados todos los pasos, el entorno estará listo para:**
+1.  ✅ **[CAPABILITY_1]**
+2.  ✅ **[CAPABILITY_2]**
+... (List all enabled capabilities)
+
+**¡El proyecto está listo para recibir los archivos de migración y comenzar el desarrollo!**
+Example Usage for AI: Before initiating any code changes, the AI would consult this template to ensure its environment is correctly configured. It would follow the "Paso a Paso" instructions for setup, verify versions, and then use the "Verificación Final del Entorno" checklist to confirm readiness. If issues arise, it would refer to the "Troubleshooting Común" section to self-diagnose and resolve environment-related problems.
+--------------------------------------------------------------------------------
+5. Pull Request Template
+This template guides the creation of a comprehensive pull request, summarizing key achievements, technical changes, UI/UX enhancements, new features, and testing results.
+Purpose for AI: Reporting, Documentation Standard, Quality Assurance Rule.
+Source(s): (Based on "0. pull_request_template.md")
+Template Structure:
+### 🚀 Pull Request: [PROJECT_NAME] - [TYPE_OF_PR_SUMMARY]
+#### 📋 Summary
+This PR implements a **[DETAILED_SUMMARY_OF_PR_SCOPE]**, transforming it from [OLD_STATE] to a **[NEW_STATE]**. All identified issues have been resolved and significant new features have been added.
+
+##### 🎯 Key Achievements:
+*   ✅ **[ACHIEVEMENT_1]** (previously [OLD_STATE_1])
+*   ✅ **[ACHIEVEMENT_2]**
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔧 Technical Changes
+##### Architecture Improvements
+*   **[ARCH_IMPROVEMENT_1]:** [DESCRIPTION_1]
+*   **[ARCH_IMPROVEMENT_2]:** [DESCRIPTION_2]
+...
+##### Dependencies Updated
+[LIST_OF_DEPENDENCIES_UPDATED]
+
+--------------------------------------------------------------------------------
+
+#### 🎨 UI/UX Enhancements
+##### Before vs After Comparison
+| Feature | Before | After | Impact |
+| ------ | ------ | ------ | ------ |
+| **[FEATURE_1]** | [BEFORE_STATE_1] | [AFTER_STATE_1] | [IMPACT_RATING_1] |
+| **[FEATURE_2]** | [BEFORE_STATE_2] | [AFTER_STATE_2] | [IMPACT_RATING_2] |
+...
+
+##### Color Gradient Specifications
+Implemented exact RGB values matching professional design:
+*   **[COLOR_CATEGORY_1]:** [RGB_VALUE_1]
+*   **[COLOR_CATEGORY_2]:** [RGB_VALUE_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📊 New Features
+##### 1. [FEATURE_NAME_1]
+**File:** [FILE_PATH_1]
+*   **Purpose:** [PURPOSE_1]
+*   **Impact:** [IMPACT_1]
+*   **Key Functions:**
+    *   [FUNCTION_1A]
+    *   [FUNCTION_1B]
+...
+##### 2. [FEATURE_NAME_2]
+**Files:** [FILE_PATHS_2]
+*   **Major Change:** [MAJOR_CHANGE_2]
+*   **Visual Enhancement:** [VISUAL_ENHANCEMENT_2]
+... (Detail all new features)
+
+--------------------------------------------------------------------------------
+
+#### 🔄 Critical Configuration Changes
+##### Constants Updated (CRITICAL)
+[LIST_OF_CRITICAL_CONSTANTS_UPDATED]
+##### React Query Configuration
+[REACT_QUERY_CONFIG_DETAILS]
+
+--------------------------------------------------------------------------------
+
+#### 📁 File Structure Changes
+##### New Files Added:
+[LIST_OF_NEW_FILES]
+##### Modified Files:
+[LIST_OF_MODIFIED_FILES]
+
+--------------------------------------------------------------------------------
+
+#### 🧪 Testing & Quality Assurance
+##### Automated Testing Completed:
+*   ✅ **[AUTOMATED_TEST_1]**
+*   ✅ **[AUTOMATED_TEST_2]**
+...
+##### Manual Testing Completed:
+*   ✅ **[MANUAL_TEST_1]**
+*   ✅ **[MANUAL_TEST_2]**
+...
+##### Performance Metrics:
+*   **Initial Load Time:** [LOAD_TIME]
+*   **[METRIC_NAME_2]:** [METRIC_VALUE_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔍 Code Review Guidelines
+##### Key Areas to Review:
+###### 1. [CRITICAL_AREA_1] (High Priority)
+**File:** [FILE_PATH_1] **Lines:** [LINE_NUMBERS_1]
+**⚠️ CRITICAL:** [CRITICAL_NOTE_1]
+###### 2. [CRITICAL_AREA_2] (High Priority)
+**File:** [FILE_PATH_2] **Key Functions:**
+*   [FUNCTION_2A]
+*   [FUNCTION_2B]
+... (Detail key review areas)
+
+##### Testing Instructions for Reviewers:
+###### Step 1: [TEST_STEP_1_TITLE]
+1.  [INSTRUCTION_1A]
+2.  [INSTRUCTION_1B]
+...
+###### Step 2: [TEST_STEP_2_TITLE]
+1.  [INSTRUCTION_2A]
+2.  [INSTRUCTION_2B]
+... (Provide detailed testing instructions)
+
+--------------------------------------------------------------------------------
+
+#### 🚨 Breaking Changes
+##### Configuration Changes Required:
+1.  **[CONFIG_CHANGE_1]:** [DETAILS_1]
+2.  **[CONFIG_CHANGE_2]:** [DETAILS_2]
+...
+##### Deprecated Features:
+*   **[DEPRECATED_FEATURE_1]:** [REPLACEMENT_1]
+*   **[DEPRECATED_FEATURE_2]:** [REPLACEMENT_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📈 Performance Impact
+##### Positive Impacts:
+*   **[POSITIVE_IMPACT_1]:** [EXPLANATION_1]
+*   **[POSITIVE_IMPACT_2]:** [EXPLANATION_2]
+...
+##### Potential Concerns:
+*   **[CONCERN_1]:** [MITIGATION_1]
+*   **[CONCERN_2]:** [MITIGATION_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔧 Deployment Instructions
+##### Environment Setup:
+[ENV_SETUP_INSTRUCTIONS]
+##### Production Checklist:
+*   [ ] [PRODUCTION_CHECK_1]
+*   [ ] [PRODUCTION_CHECK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🤝 Collaboration Notes
+##### For Future Contributors:
+*   **[NOTE_1]:** [DETAILS_1]
+*   **[NOTE_2]:** [DETAILS_2]
+...
+##### Documentation Updated:
+*   [ ] [DOC_UPDATED_1]
+*   [ ] [DOC_UPDATED_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📝 Reviewer Action Items
+##### Required Approvals:
+*   [ ] **[ROLE_1]:** [REVIEW_FOCUS_1]
+*   [ ] **[ROLE_2]:** [REVIEW_FOCUS_2]
+...
+##### Pre-Merge Checklist:
+*   [ ] [PRE_MERGE_CHECK_1]
+*   [ ] [PRE_MERGE_CHECK_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🎉 Success Metrics
+This PR successfully addresses all identified issues:
+1.  ✅ **[SUCCESS_METRIC_1]**
+2.  ✅ **[SUCCESS_METRIC_2]**
+...
+
+**Result:** [OVERALL_TRANSFORMATION_RESULT]
+
+**Ready for review and merge! 🚀**
+Example Usage for AI: Upon completing a major development phase, the AI would use this template to generate a pull request summary. It would populate sections like "Key Achievements," "Technical Changes," and "Testing & Quality Assurance" with precise data from its task memories and verification logs. It would also enforce adherence to the "Color Gradient Specifications" and "Critical Constants Updated" as final quality checks before submission.
+--------------------------------------------------------------------------------
+6. Universal Multi-AI Orchestration System Template
+This template defines a universal framework for coordinating multiple AI agents across any project type, outlining architectural principles, roles, communication protocols, and workflows.
+Purpose for AI: Orchestration Rules, Collaboration Protocol, System Architecture Memory.
+Source(s): (Based on "multi_ai_orchestration_system.md")
+Template Structure:
+### 🤖 SISTEMA UNIVERSAL DE ORQUESTACIÓN MULTI-IA
+#### Framework Agnóstico para Colaboración IA Paralela
+
+--------------------------------------------------------------------------------
+
+#### 🎯 OBJETIVO DEL SISTEMA
+Crear un **framework universal** que permita a múltiples IAs trabajar en paralelo de forma coordinada en **cualquier tipo de proyecto**, optimizando tiempo, calidad y eficiencia sin importar el dominio específico.
+
+--------------------------------------------------------------------------------
+
+#### 🏗️ ARQUITECTURA FUNDAMENTAL
+##### Modelo de 4 Capas
+[DESCRIPTION_OF_4_LAYERS]
+##### Principios Fundamentales
+1.  **Agnóstico al Dominio:** [DESCRIPTION_1]
+2.  **Escalabilidad Horizontal:** [DESCRIPTION_2]
+3.  **Tolerancia a Fallos:** [DESCRIPTION_3]
+4.  **Auto-organización:** [DESCRIPTION_4]
+5.  **Transparencia Total:** [DESCRIPTION_5]
+
+--------------------------------------------------------------------------------
+
+#### 👥 TAXONOMÍA DE ROLES IA
+##### Clasificación por Función
+###### ROLES PRIMARIOS
+*   **🎨 CREADORES:** [DESCRIPTION]
+*   **🔍 ANALIZADORES:** [DESCRIPTION]
+*   **🛡️ VALIDADORES:** [DESCRIPTION]
+*   **🔧 INTEGRADORES:** [DESCRIPTION]
+*   **📊 REPORTEROS:** [DESCRIPTION]
+###### ROLES SECUNDARIOS
+*   **🚨 MONITORES:** [DESCRIPTION]
+*   **🔄 SINCRONIZADORES:** [DESCRIPTION]
+*   **⚡ OPTIMIZADORES:** [DESCRIPTION]
+*   **🆘 RESOLVEDORES:** [DESCRIPTION]
+##### Matriz de Capacidades Universal
+| Capacidad | Nivel 1 (Básico) | Nivel 2 (Intermedio) | Nivel 3 (Avanzado) | Nivel 4 (Experto) |
+| ------ | ------ | ------ | ------ | ------ |
+| **[CAPABILITY_NAME_1]** | [LEVEL_1_DESC] | [LEVEL_2_DESC] | [LEVEL_3_DESC] | [LEVEL_4_DESC] |
+| **[CAPABILITY_NAME_2]** | [LEVEL_1_DESC] | [LEVEL_2_DESC] | [LEVEL_3_DESC] | [LEVEL_4_DESC] |
+... (List all capabilities and their levels)
+
+--------------------------------------------------------------------------------
+
+#### 🔄 PROTOCOLOS DE COORDINACIÓN UNIVERSAL
+##### 1. Protocolo de Inicio (PROJECT_BOOTSTRAP)
+[BOOTSTRAP_PROTOCOL_DETAILS]
+##### 2. Protocolo de Comunicación (UNIVERSAL_SYNC)
+###### Canal Principal: Estado Global
+[GLOBAL_STATE_CHANNEL_DETAILS]
+###### Tipos de Mensaje Estándar
+*   **STATUS_UPDATE:** [MESSAGE_TYPE_DESC_1]
+*   **TASK_COMPLETED:** [MESSAGE_TYPE_DESC_2]
+... (List all standard message types)
+##### 3. Protocolo de Descomposición (TASK_DECOMPOSITION)
+###### Algoritmo Universal de División
+[TASK_DECOMPOSITION_ALGORITHM]
+###### Template de Tarea Universal
+[UNIVERSAL_TASK_TEMPLATE]
+
+--------------------------------------------------------------------------------
+
+#### ⚡ FLUJOS DE TRABAJO UNIVERSALES
+##### Flujo Tipo 1: [WORKFLOW_TYPE_1]
+[WORKFLOW_DETAILS_1]
+##### Flujo Tipo 2: [WORKFLOW_TYPE_2]
+[WORKFLOW_DETAILS_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🛠️ HERRAMIENTAS DE ORQUESTACIÓN
+##### 1. Motor de Coordinación Universal
+[COORDINATION_ENGINE_DETAILS]
+##### 2. Sistema de Métricas Universal
+[METRICS_SYSTEM_DETAILS]
+##### 3. Auto-Configurador de Proyectos
+[PROJECT_AUTO_CONFIG_DETAILS]
+
+--------------------------------------------------------------------------------
+
+#### 🔧 PATRONES DE IMPLEMENTACIÓN
+##### Patrón 1: [PATTERN_NAME_1]
+**Cuándo usar:** [USAGE_SCENARIO_1] **Ejemplo:** [EXAMPLE_1]
+##### Patrón 2: [PATTERN_NAME_2]
+**Cuándo usar:** [USAGE_SCENARIO_2] **Ejemplo:** [EXAMPLE_2]
+... (List all implementation patterns)
+
+--------------------------------------------------------------------------------
+
+#### 📊 ALGORITMOS DE OPTIMIZACIÓN
+##### 1. Asignación Óptima de Tareas
+[TASK_ASSIGNMENT_ALGORITHM_DETAILS]
+##### 2. Balanceador de Carga Dinámico
+[LOAD_BALANCER_DETAILS]
+##### 3. Predictor de Timeline
+[TIMELINE_PREDICTOR_DETAILS]
+
+--------------------------------------------------------------------------------
+
+#### 🎮 EJEMPLO DE USO UNIVERSAL
+##### Caso: [USE_CASE_TITLE]
+[USE_CASE_DETAILS]
+
+--------------------------------------------------------------------------------
+
+#### 🎯 FRAMEWORK DE ADOPCIÓN
+##### Nivel 1: [LEVEL_NAME_1]
+*   **Objetivo:** [OBJECTIVE_1]
+*   **Proyectos:** [PROJECT_TYPE_1]
+*   **Herramientas:** [TOOLS_1]
+*   **Métricas:** [METRICS_1]
+... (List all adoption levels)
+
+--------------------------------------------------------------------------------
+
+#### 🚀 ROADMAP DE IMPLEMENTACIÓN
+##### Semana 1-2: [PHASE_NAME_1]
+*   [ ] [TASK_1A]
+*   [ ] [TASK_1B]
+...
+##### Semana 3-4: [PHASE_NAME_2]
+*   [ ] [TASK_2A]
+*   [ ] [TASK_2B]
+... (List all roadmap phases and tasks)
+
+--------------------------------------------------------------------------------
+
+#### 🎯 CONCLUSIÓN
+Este sistema universal de orquestación multi-IA está diseñado para:
+✅ **[BENEFIT_1]**
+✅ **[BENEFIT_2]**
+... (List all benefits from the conclusion)
+
+El framework es **agnóstico al tipo de proyecto** y se adapta dinámicamente a las necesidades específicas, proporcionando la infraestructura necesaria para que múltiples IAs colaboren de manera eficiente y efectiva.
+
+*Framework universal para la próxima generación de colaboración IA* 🤖⚡🚀
+Example Usage for AI: An AI acting as an orchestrator would use this template as its foundational understanding of multi-AI collaboration. It would refer to the "Taxonomía de Roles IA" to assign tasks based on agent capabilities, apply "Protocolos de Coordinación Universal" for communication, and select appropriate "Patrones de Implementación" to structure complex projects. This template serves as the AI's core "rulebook" for inter-agent interactions and system-level operations.
+--------------------------------------------------------------------------------
+7. AI/CLI Integration Base File Template
+This template serves as a basal file for any AI or CLI tool, centralizing essential information about project protocols, security, and mandatory workflows.
+Purpose for AI: Core Rules, Security Protocol, Workflow Instructions, Context Memory.
+Source(s): (Based on "CLAUDE.md") and (Based on "GEMINI.md")
+Template Structure:
+### 🤖 [AI_OR_CLI_NAME] — Archivo Basal de Integración IA/CLI
+**NOTA IMPORTANTE:** Todas las reglas definidas en .cursor/rules/ son de **cumplimiento obligatorio** para cualquier IA/CLI (incluyendo [AI_OR_CLI_NAME]) que actúe en este proyecto. Deben ser leídas, interpretadas y aplicadas antes de ejecutar cualquier tarea o modificación.
+#### 📋 RESUMEN EJECUTIVO
+Este archivo centraliza la información esencial para que **[AI_OR_CLI_NAME]** (o cualquier IA/CLI) actúe conforme a los protocolos, reglas y estándares del sistema de gestión multi-IA del proyecto **[PROJECT_NAME]**.
+
+--------------------------------------------------------------------------------
+
+#### 🏛️ ESTRUCTURA DOCUMENTAL Y PROTOCOLOS
+*   **[DOCUMENT_PATH_1]**
+    *   [DOCUMENT_PURPOSE_1]
+*   **[DOCUMENT_PATH_2]**
+    *   [DOCUMENT_PURPOSE_2]
+... (List all core documentation files and their purposes)
+
+--------------------------------------------------------------------------------
+
+#### 🛡️ PROTOCOLO DE SEGURIDAD Y DOCUMENTACIÓN
+*   **Secretos/API Keys:** [SECURITY_RULE_API_KEYS]
+*   **Documentación:**
+    *   [DOC_RULE_COMPLEX_PROBLEMS]
+    *   [DOC_RULE_STATE_CHANGES]
+    *   [DOC_RULE_CHAT_COMMUNICATION]
+*   **Formato de tareas:**
+[TASK_FORMAT_DESCRIPTION]
+
+--------------------------------------------------------------------------------
+
+#### 🔄 FLUJO DE TRABAJO OBLIGATORIO
+1.  [WORKFLOW_STEP_1]
+2.  [WORKFLOW_STEP_2]
+... (List all mandatory workflow steps)
+
+--------------------------------------------------------------------------------
+
+#### ✅ CHECKLIST DE INTEGRACIÓN IA/CLI
+*   [ ] ¿Puedes leer [DOC_PATH_1]?
+*   [ ] ¿Puedes leer [DOC_PATH_2]?
+... (List all documents to be verified for readability)
+*   [ ] **¿Reconoces que todas las rules de .cursor/rules/ son de cumplimiento obligatorio para cualquier IA/CLI?**
+*   [ ] ¿Reconoces el formato estándar de tareas y commits?
+*   [ ] ¿Tienes permisos de lectura/escritura en la carpeta del proyecto?
+
+**Si alguna respuesta es NO, reporta el error y detén la ejecución.**
+
+--------------------------------------------------------------------------------
+
+#### 📚 ENLACES CRUZADOS Y REFERENCIAS
+*   [REFERENCE_LINK_1]
+*   [REFERENCE_LINK_2]
+... (List all cross-referenced documents)
+
+--------------------------------------------------------------------------------
+
+**Este archivo debe ser leído por cualquier IA/CLI antes de ejecutar tareas o modificar el sistema.**
+Example Usage for AI: Any AI, upon initiation in a new project, would be instructed to read this file first. It would use the "CHECKLIST DE INTEGRACIÓN IA/CLI" to perform a self-assessment of its capabilities and permissions, ensuring it can operate correctly within the defined ecosystem. The "FLUJO DE TRABAJO OBLIGATORIO" and "PROTOCOLO DE SEGURIDAD Y DOCUMENTACIÓN" sections would establish fundamental rules and context for its operation, acting as non-negotiable guiding principles.
+--------------------------------------------------------------------------------
+8. Integrated Master Plan Template
+This template centralizes the project's overall plan, integrating tasks, priorities, execution order, acceptance criteria, and update protocols.
+Purpose for AI: Project Plan, Task Management Instructions, Rule for Task Execution.
+Source(s): (Based on "PLAN_INTEGRADO_MAESTRO.md")
+Template Structure:
+### 🎯 PLAN INTEGRADO MAESTRO
+#### [PROJECT_NAME] - Sistema de Gestión Unificado
+**Fecha Creación:** [DATE_CREATED] **Última Actualización:** [LAST_UPDATED_DATE] **Estado General:** [OVERALL_STATUS] **Prioridad:** [OVERALL_PRIORITY]
+
+--------------------------------------------------------------------------------
+
+#### 📋 RESUMEN EJECUTIVO
+Este documento integra todos los planes de trabajo existentes y los nuevos errores identificados en una matriz unificada de tareas priorizadas.
+##### Objetivos Principales:
+1.  **[MAIN_OBJECTIVE_1]**
+2.  **[MAIN_OBJECTIVE_2]**
+...
+##### Método de Trabajo:
+*   ✅ **[WORK_METHOD_1]:** [DESCRIPTION_1]
+*   ✅ **[WORK_METHOD_2]:** [DESCRIPTION_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🗂️ MATRIZ DE TAREAS INTEGRADA
+##### 🔴 PRIORIDAD CRÍTICA - [TYPE_OF_TASKS_1]
+| ID | Tarea | Estado | Componente | Estimación |
+| ------ | ------ | ------ | ------ | ------ |
+| **[TASK_ID_1]** | [TASK_DESCRIPTION_1] | [STATUS_1] | [COMPONENT_1] | [ESTIMATION_1] |
+| **[TASK_ID_2]** | [TASK_DESCRIPTION_2] | [STATUS_2] | [COMPONENT_2] | [ESTIMATION_2] |
+...
+##### 🟡 PRIORIDAD ALTA - [TYPE_OF_TASKS_2]
+| ID | Tarea | Estado | Componente | Estimación |
+| ------ | ------ | ------ | ------ | ------ |
+| **[TASK_ID_A]** | [TASK_DESCRIPTION_A] | [STATUS_A] | [COMPONENT_A] | [ESTIMATION_A] |
+| **[TASK_ID_B]** | [TASK_DESCRIPTION_B] | [STATUS_B] | [COMPONENT_B] | [ESTIMATION_B] |
+... (List all tasks with their details)
+
+--------------------------------------------------------------------------------
+
+#### 📊 ORDEN DE EJECUCIÓN RECOMENDADO
+##### Sprint 1: [SPRINT_1_NAME] (Estimado: [ESTIMATED_TIME_1])
+[TASKS_IN_SPRINT_1]
+##### Sprint 2: [SPRINT_2_NAME] (Estimado: [ESTIMATED_TIME_2])
+[TASKS_IN_SPRINT_2]
+... (Define execution order by sprints or phases)
+
+--------------------------------------------------------------------------------
+
+#### 🔧 CRITERIOS DE ACEPTACIÓN
+##### Para [TASK_CATEGORY_1] ([TASK_IDS_1]):
+*   ✅ **[ACCEPTANCE_CRITERIA_1A]**
+*   ✅ **[ACCEPTANCE_CRITERIA_1B]**
+...
+##### Para [TASK_CATEGORY_2] ([TASK_IDS_2]):
+*   ✅ **[ACCEPTANCE_CRITERIA_2A]**
+*   ✅ **[ACCEPTANCE_CRITERIA_2B]**
+... (Define acceptance criteria for all tasks/categories)
+
+--------------------------------------------------------------------------------
+
+#### 📝 PROTOCOLO DE ACTUALIZACIÓN
+##### Cuando una tarea cambia de estado:
+1.  [UPDATE_STEP_1]
+2.  [UPDATE_STEP_2]
+...
+##### Formato de comunicación con IA:
+[IA_COMMUNICATION_FORMAT_DETAILS]
+##### 📝 NORMA OBLIGATORIA DE REGISTRO Y VERACIDAD DE DATOS
+*   [DATA_VERACITY_RULE_1]
+*   [DATA_VERACITY_RULE_2]
+... (Define rules for data veracity)
+
+--------------------------------------------------------------------------------
+
+#### 🚨 RIESGOS Y MITIGACIONES
+##### Riesgo Alto: [RISK_1]
+*   **Mitigación:** [MITIGATION_1]
+##### Riesgo Medio: [RISK_2]
+*   **Mitigación:** [MITIGATION_2]
+... (List risks and their mitigations)
+
+--------------------------------------------------------------------------------
+
+#### 📚 REFERENCIAS CRUZADAS
+*   [REFERENCE_DOC_1] → [PURPOSE_1]
+*   [REFERENCE_DOC_2] → [PURPOSE_2]
+... (List all cross-referenced documents)
+
+--------------------------------------------------------------------------------
+
+**Siguiente Acción:** [NEXT_ACTION_FOR_IA] **Responsable:** [RESPONSIBLE_AGENT] **Fecha Límite:** [DEADLINE_DATE]
+Example Usage for AI: An AI starting its shift would first read this "PLAN INTEGRADO MAESTRO" to understand the project's overall status, objectives, and its next highest priority task based on the "ORDEN DE EJECUCIÓN RECOMENDADO". It would consult the "CRITERIOS DE ACEPTACIÓN" before marking a task as complete and strictly adhere to the "PROTOCOLO DE ACTUALIZACIÓN" for all status changes, ensuring its actions are transparent and synchronized within the multi-AI system.
+--------------------------------------------------------------------------------
+9. AI Collaboration Protocol Template
+This template standardizes communication and workflow between different AI agents, minimizing chat communication and maintaining shared context.
+Purpose for AI: Collaboration Rules, Communication Standard, Conflict Resolution Guide.
+Source(s): (Based on "PROTOCOLO_IA_COLABORACION.md")
+Template Structure:
+### 🤖 PROTOCOLO DE COLABORACIÓN ENTRE IAS
+#### [PROJECT_NAME] - Estándares de Trabajo Multi-Agente
+**Fecha Creación:** [DATE_CREATED]
+**Versión:** [VERSION]
+**Propósito:** Estandarizar comunicación y trabajo entre diferentes IAs/agentes
+
+--------------------------------------------------------------------------------
+
+#### 🎯 OBJETIVOS DEL PROTOCOLO
+1.  **Minimizar comunicación en chat:** [DESCRIPTION_1]
+2.  **Mantener contexto compartido:** [DESCRIPTION_2]
+3.  **Evitar duplicación:** [DESCRIPTION_3]
+4.  **Garantizar calidad:** [DESCRIPTION_4]
+
+--------------------------------------------------------------------------------
+
+#### 📋 REGLAS FUNDAMENTALES
+##### 🔴 OBLIGATORIAS
+1.  **SIEMPRE leer** [DOC_PATH_1] **antes de comenzar**
+2.  **SIEMPRE actualizar estado de tareas al cambiar**
+3.  **SIEMPRE documentar problemas complejos en** [DOC_PATH_2]
+4.  **NUNCA comenzar una tarea sin revisar dependencias**
+5.  **NUNCA saltarse los criterios de aceptación**
+##### 🟡 RECOMENDADAS
+1.  [RECOMMENDED_RULE_1]
+2.  [RECOMMENDED_RULE_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🗣️ FORMATO DE COMUNICACIÓN ESTÁNDAR
+##### Al comenzar una tarea:
+[START_TASK_FORMAT]
+##### Al completar una tarea:
+[COMPLETE_TASK_FORMAT]
+##### Al encontrar un bloqueo:
+[BLOCKER_FORMAT]
+
+--------------------------------------------------------------------------------
+
+#### 📊 PROCESO DE ACTUALIZACIÓN DE ESTADO
+##### Cada vez que una tarea cambia de estado:
+1.  **Actualizar** [DOC_PATH_1]:
+    *   [UPDATE_STEP_1A]
+    *   [UPDATE_STEP_1B]
+2.  **Actualizar** [DOC_PATH_2]:
+    *   [UPDATE_STEP_2A]
+    *   [UPDATE_STEP_2B]
+3.  **Documentar en** [DOC_PATH_3] (solo si es complejo):
+    *   [DOC_STEP_3A]
+    *   [DOC_STEP_3B]
+4.  **Commit con formato estándar:**
+[COMMIT_FORMAT_EXAMPLE]
+
+--------------------------------------------------------------------------------
+
+#### 🔧 COMANDOS ESTÁNDAR DE VALIDACIÓN
+##### Antes de comenzar cualquier tarea:
+[PRE_TASK_VALIDATION_COMMANDS]
+##### Después de completar una tarea:
+[POST_TASK_VALIDATION_COMMANDS]
+
+--------------------------------------------------------------------------------
+
+#### 📝 PLANTILLAS DE DOCUMENTACIÓN
+##### Para problemas complejos en [DOC_PATH]:
+[COMPLEX_PROBLEM_TEMPLATE]
+##### Para comunicación en chat (mínima):
+[CHAT_COMMUNICATION_TEMPLATE]
+
+--------------------------------------------------------------------------------
+
+#### 🚨 GESTIÓN DE CONFLICTOS
+##### Si dos IAs trabajan en tareas relacionadas:
+1.  [CONFLICT_RESOLUTION_STEP_1]
+2.  [CONFLICT_RESOLUTION_STEP_2]
+...
+##### Si una tarea no puede completarse:
+1.  [UNCOMPLETABLE_TASK_STEP_1]
+2.  [UNCOMPLETABLE_TASK_STEP_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🧠 DEBUGGING EVOLUTIVO: ANÁLISIS TÉCNICO INTEGRADO
+##### EVOLUCIÓN: REACTIVO → PROACTIVO
+*   **ANTES:** [BEFORE_STATE]
+*   **AHORA:** [CURRENT_STATE]
+*   **OBJETIVO:** [TARGET_STATE]
+##### PATRONES Si X→Y OBLIGATORIOS
+1.  **Si [CONDITION_1]** → [OBLIGATORY_ACTION_1]
+2.  **Si [CONDITION_2]** → [OBLIGATORY_ACTION_2]
+...
+##### RED FLAGS DETECCIÓN TEMPRANA
+*   🚨 **[FLAG_CATEGORY_1]:** [FLAG_DETAILS_1]
+*   🚨 **[FLAG_CATEGORY_2]:** [FLAG_DETAILS_2]
+...
+##### ESCALAMIENTO PREVENTIVO OBLIGATORIO
+*   [ESCALATION_STEP_1]
+*   [ESCALATION_STEP_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔍 CRITERIOS DE CALIDAD
+##### Antes de marcar una tarea como COMPLETADA:
+*   ✅ **Funcionalidad:** [CRITERIA_1]
+*   ✅ **Estética:** [CRITERIA_2]
+...
+*   ✅ **Patrones:** [CRITERIA_N]
+*   ✅ **Preventivo:** [CRITERIA_N+1]
+##### Criterios específicos por tipo de tarea:
+**Para tareas de UI/UX:**
+*   ✅ [UI_CRITERIA_1]
+*   ✅ [UI_CRITERIA_2]
+...
+**Para tareas de lógica/datos:**
+*   ✅ [LOGIC_CRITERIA_1]
+*   ✅ [LOGIC_CRITERIA_2]
+...
+**Para tareas de integración:**
+*   ✅ [INTEGRATION_CRITERIA_1]
+*   ✅ [INTEGRATION_CRITERIA_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🎯 MEJORES PRÁCTICAS
+##### Trabajo eficiente:
+1.  [BEST_PRACTICE_1]
+2.  [BEST_PRACTICE_2]
+...
+##### Comunicación efectiva:
+1.  [BEST_PRACTICE_1]
+2.  [BEST_PRACTICE_2]
+...
+##### Mantenimiento del sistema:
+1.  [BEST_PRACTICE_1]
+2.  [BEST_PRACTICE_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📚 REFERENCIAS RÁPIDAS
+*   [REFERENCE_DOC_1] → [PURPOSE_1]
+*   [REFERENCE_DOC_2] → [PURPOSE_2]
+...
+
+--------------------------------------------------------------------------------
+
+**Última Actualización:** [LAST_UPDATED_DATE]
+**Responsable:** [RESPONSIBLE_ENTITY]
+**Próxima Revisión:** [NEXT_REVIEW_DATE]
+Example Usage for AI: This protocol would be a fundamental rule for all AI agents working collaboratively. When an AI completes a task, it would follow the "PROCESO DE ACTUALIZACIÓN DE ESTADO" to update relevant documents and commit messages. If it detects a critical issue, it would refer to the "DEBUGGING EVOLUTIVO" section to identify "RED FLAGS" and apply "PATRONES Si X→Y OBLIGATORIOS" to ensure a consistent and proactive response.
+--------------------------------------------------------------------------------
+10. Pull Request Documentation for Integral Protocol Template
+This template is for documenting the comprehensive migration and enhancement of a project, focusing on key achievements, technical/UI/UX changes, new features, and rigorous testing. This is a specific instance of a Pull Request Template used for a major transformation.
+Purpose for AI: Comprehensive Project Reporting, Feature Documentation, Quality Assurance Confirmation.
+Source(s): (Based on "0. pull_request_template.md")
+Template Structure: (This template is the same as the "Pull Request Template" above, but with a specific note that it is for integral or complete migrations, reinforcing its use for a major milestone. The detailed structure is already provided in Template 5. This simply re-emphasizes its specific context from the source.)
+Template Structure is identical to Template 5: Pull Request Template. The content in the provided source specifically emphasizes its use for a "Complete Migration & Enhancement" of the Crypto Analysis Suite.
+Example Usage for AI: After executing a multi-phase migration project, the AI would fill out this extensive PR template. It would detail every "Key Achievement," enumerate "Technical Changes" and "New Features" with their file paths and impacts, and provide exhaustive "Testing & Quality Assurance" results. This serves as the final, official report of its major development efforts, ensuring thorough documentation for human review and project history.
+--------------------------------------------------------------------------------
+11. Meta-Protocol Architecture for Enhanced AI Coding Assistants Template
+This template describes a comprehensive meta-protocol for AI coding tools, integrating memory, multi-agent coordination, and auto-learning mechanisms.
+Purpose for AI: Architectural Memory, System Design Blueprint, Strategic Guidance.
+Source(s): (Based on "compass_artifact_wf-ea1603f4-50fa-4ae6-9e84-ad48ddfe20e4_text_markdown.md")
+Template Structure:
+### Meta-Protocol Architecture for Enhanced AI Coding Assistants
+#### Executive Summary
+This research presents a comprehensive meta-protocol framework that addresses fundamental limitations of current AI coding tools by integrating persistent memory systems, multi-agent coordination, auto-learning mechanisms, and universal tool integration. The framework enables intelligent systems that learn from errors, maintain context across sessions, and coordinate multiple specialized agents for complex development tasks.
+
+#### Core Architecture Overview
+The meta-protocol consists of six interconnected layers that work together to create an intelligent coding assistant ecosystem:
+1.  **Memory System Layer:** [PURPOSE_1]
+2.  **Multi-Agent Coordination Layer:** [PURPOSE_2]
+... (List all layers with their purposes)
+
+#### 1. Memory System Architecture
+##### 1.1 Vector Database Implementation
+**Primary Storage:** [DETAILS_PRIMARY_STORAGE]
+##### 1.2 Context Compression for Large Codebases
+**LLMLingua-Based Compression:** [DETAILS_COMPRESSION]
+##### 1.3 Cross-Session State Management
+**Redis-Based Hierarchical Storage:** [DETAILS_STATE_MANAGEMENT]
+
+#### 2. Multi-Agent Coordination Framework
+##### 2.1 Model Context Protocol (MCP) Implementation
+**MCP Server Architecture:** [DETAILS_MCP_SERVER]
+##### 2.2 Task Decomposition and Orchestration
+**Hierarchical Task Decomposition:** [DETAILS_TASK_DECOMPOSITION]
+##### 2.3 Conflict Resolution Framework
+**Game-Theoretic Conflict Resolution:** [DETAILS_CONFLICT_RESOLUTION]
+
+#### 3. Auto-Learning and Continuous Improvement
+##### 3.1 Reinforcement Learning from Human Feedback (RLHF)
+**Code-Specific RLHF Implementation:** [DETAILS_RLHF]
+##### 3.2 Evolutionary Prompt Optimization
+**EvoPrompt Framework:** [DETAILS_EVOPROMPT]
+##### 3.3 Continuous Learning Architecture
+**Elastic Weight Consolidation:** [DETAILS_CONTINUOUS_LEARNING]
+
+#### 4. Context Management and Expansion
+##### 4.1 Hierarchical Context Representation
+**Graph-Based Context Management:** [DETAILS_GRAPH_CONTEXT]
+##### 4.2 Intelligent Context Pruning
+**RAG-Based Context Retrieval:** [DETAILS_RAG_CONTEXT]
+
+#### 5. Universal Integration Framework
+##### 5.1 MCP-Based Universal Bridge
+**Model Context Protocol Integration:** [DETAILS_MCP_BRIDGE]
+##### 5.2 Tool-Specific Integration Patterns
+**[TOOL_NAME_1] Integration:** [DETAILS_TOOL_INTEGRATION_1]
+**[TOOL_NAME_2] Enhancement:** [DETAILS_TOOL_INTEGRATION_2]
+
+#### 6. Crypto/Finance Specialized Applications
+##### 6.1 Smart Contract Development with Enhanced Context
+**Security Pattern Library:** [DETAILS_SECURITY_PATTERN_LIBRARY]
+##### 6.2 DeFi Protocol Pattern Recognition
+**Automated Template Generation:** [DETAILS_DEFI_TEMPLATE_GENERATION]
+##### 6.3 Trading Algorithm Development
+**Market Pattern Memory:** [DETAILS_MARKET_PATTERN_MEMORY]
+
+#### Implementation Roadmap
+##### Phase 1: [PHASE_NAME_1] (Months [MONTHS_1])
+*   **[COMP_1]:** [SETUP_1]
+*   **[COMP_2]:** [SETUP_2]
+...
+##### Phase 2: [PHASE_NAME_2] (Months [MONTHS_2])
+*   **[COMP_1]:** [SETUP_1]
+*   **[COMP_2]:** [SETUP_2]
+... (List all phases with their components and setup)
+
+#### Performance Metrics and Benchmarks
+##### Memory System Performance
+*   **Retrieval Latency:** [LATENCY]
+*   **Compression Ratio:** [COMPRESSION_RATIO]
+...
+##### Auto-Learning Performance
+*   **RLHF Improvements:** [IMPROVEMENTS_RLHF]
+*   **Prompt Optimization:** [PROMPT_OPTIMIZATION]
+...
+##### Integration Performance
+*   **API Response Time:** [RESPONSE_TIME]
+*   **Cross-Tool Compatibility:** [COMPATIBILITY]
+...
+
+#### Security and Privacy Considerations
+##### Data Protection Framework
+*   **Encryption:** [ENCRYPTION_DETAILS]
+*   **Access Control:** [ACCESS_CONTROL_DETAILS]
+...
+##### Security Implementation
+[GENERAL_SECURITY_IMPLEMENTATION_DETAILS]
+
+#### Cost-Benefit Analysis and ROI
+##### Development Costs
+*   **Initial Implementation:** [COST_INITIAL]
+*   **Infrastructure:** [COST_INFRASTRUCTURE]
+...
+##### Expected Benefits
+*   **Developer Productivity:** [PRODUCTIVITY_IMPROVEMENT]
+*   **Code Quality:** [QUALITY_IMPROVEMENT]
+...
+##### ROI Projections
+*   **Enterprise Deployment:** [ROI_ENTERPRISE]
+*   **Reduced Development Time:** [SAVINGS_DEVELOPMENT_TIME]
+...
+
+#### Open Source Strategy
+##### Community Building Framework
+*   **Modular Architecture:** [COMMUNITY_BUILDING_1]
+*   **Clear Documentation:** [COMMUNITY_BUILDING_2]
+...
+##### Licensing Strategy
+*   **Core Framework:** [LICENSE_CORE]
+*   **Enterprise Features:** [LICENSE_ENTERPRISE]
+...
+
+#### Conclusion
+The meta-protocol framework presented here addresses fundamental limitations of current AI coding assistants through a comprehensive architecture that integrates persistent memory, multi-agent coordination, continuous learning, and universal tool compatibility. The system's modular design enables incremental deployment while providing immediate value through enhanced context management and intelligent code assistance.
+
+Key success factors include:
+*   **Proven Technologies:** [FACTOR_1]
+*   **Scalable Architecture:** [FACTOR_2]
+...
+
+The projected ROI of [ROI_VALUE], combined with significant improvements in developer productivity and code quality, makes this framework a compelling investment for organizations seeking to enhance their development capabilities with intelligent AI assistance.
+
+The specialized crypto/finance applications demonstrate the framework's versatility, while the universal integration patterns ensure compatibility with existing development workflows and tools. This comprehensive approach positions the meta-protocol as a foundational technology for the next generation of AI-powered software development.
+Example Usage for AI: This template would serve as a high-level architectural memory for an AI involved in designing or understanding the underlying systems of AI coding assistants. It would refer to sections like "Memory System Architecture" or "Multi-Agent Coordination Framework" to recall best practices and specific implementations for advanced functionalities. It could also use the "Cost-Benefit Analysis" section to provide strategic recommendations on investment in such systems.
+--------------------------------------------------------------------------------
+12. Project / Research Schema Template
+This template outlines a structured research plan, including problem analysis, proposed architecture, prioritized research areas, methodology, and planned experiments.
+Purpose for AI: Research Planning, Problem Definition, Methodology Memory.
+Source(s): (Based on "ai-coding-research-schema.md")
+Template Structure:
+### Esquema de Investigación: [RESEARCH_TOPIC]
+#### OBJETIVO PRINCIPAL
+[MAIN_OBJECTIVE_OF_RESEARCH]
+
+--------------------------------------------------------------------------------
+
+#### 1. ANÁLISIS DE PROBLEMAS ACTUALES
+##### 1.1 Limitaciones Identificadas
+**[LIMITATION_CATEGORY_1]:**
+*   [LIMITATION_1A]
+*   [LIMITATION_1B]
+...
+**[LIMITATION_CATEGORY_2]:**
+*   [LIMITATION_2A]
+*   [LIMITATION_2B]
+...
+##### 1.2 Metodología de Análisis
+*   **[METHOD_1]**
+*   **[METHOD_2]**
+...
+
+--------------------------------------------------------------------------------
+
+#### 2. ARQUITECTURA PROPUESTA DEL META-PROTOCOLO
+##### 2.1 Componentes Core del Sistema
+**[COMPONENT_LAYER_1]:**
+[DESCRIPTION_OF_COMPONENT_1]
+**[COMPONENT_LAYER_2]:**
+[DESCRIPTION_OF_COMPONENT_2]
+...
+##### 2.2 Flujo de Trabajo Propuesto
+[PROPOSED_WORKFLOW_DESCRIPTION]
+
+--------------------------------------------------------------------------------
+
+#### 3. AREAS DE INVESTIGACIÓN PRIORITARIAS
+##### 3.1 [RESEARCH_AREA_1] (Prioridad: [PRIORITY_1])
+**Objetivos de Investigación:**
+*   [OBJECTIVE_1A]
+*   [OBJECTIVE_1B]
+...
+**Preguntas de Investigación:**
+*   ¿[QUESTION_1A]?
+*   ¿[QUESTION_1B]?
+...
+**Metodología:**
+*   [METHODOLOGY_1A]
+*   [METHODOLOGY_1B]
+...
+##### 3.2 [RESEARCH_AREA_2] (Prioridad: [PRIORITY_2])
+**Objetivos de Investigación:**
+*   [OBJECTIVE_2A]
+*   [OBJECTIVE_2B]
+... (Detail all priority research areas)
+
+--------------------------------------------------------------------------------
+
+#### 4. METODOLOGÍA DE INVESTIGACIÓN
+##### 4.1 Fase Exploratoria ([DURATION_1])
+**Semanas [WEEKS_RANGE_1]: [ACTIVITY_1]**
+*   [SUB_ACTIVITY_1A]
+*   [SUB_ACTIVITY_1B]
+...
+**Semanas [WEEKS_RANGE_2]: [ACTIVITY_2]**
+*   [SUB_ACTIVITY_2A]
+*   [SUB_ACTIVITY_2B]
+... (Detail all phases and activities)
+
+--------------------------------------------------------------------------------
+
+#### 5. ARQUITECTURA TÉCNICA DETALLADA
+##### 5.1 [ARCH_SECTION_1]
+[ARCH_DETAILS_1]
+##### 5.2 [ARCH_SECTION_2]
+[ARCH_DETAILS_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 6. EXPERIMENTOS PLANIFICADOS
+##### 6.1 Experimento 1: [EXPERIMENT_TITLE_1]
+**Hipótesis:** [HYPOTHESIS_1]
+**Metodología:**
+*   [METHOD_1A]
+*   [METHOD_1B]
+...
+**Duración:** [DURATION_1] **Participantes:** [PARTICIPANTS_1]
+##### 6.2 Experimento 2: [EXPERIMENT_TITLE_2]
+**Hipótesis:** [HYPOTHESIS_2]
+**Metodología:**
+*   [METHOD_2A]
+*   [METHOD_2B]
+... (Detail all planned experiments)
+
+--------------------------------------------------------------------------------
+
+#### 7. MÉTRICAS DE ÉXITO
+##### 7.1 Métricas Técnicas
+*   **[METRIC_NAME_1]:** [DESCRIPTION_1]
+*   **[METRIC_NAME_2]:** [DESCRIPTION_2]
+...
+##### 7.2 Métricas de Desarrollador
+*   **[METRIC_NAME_1]:** [DESCRIPTION_1]
+*   **[METRIC_NAME_2]:** [DESCRIPTION_2]
+...
+##### 7.3 Métricas de Calidad
+*   **[METRIC_NAME_1]:** [DESCRIPTION_1]
+*   **[METRIC_NAME_2]:** [DESCRIPTION_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 8. RECURSOS NECESARIOS
+##### 8.1 Recursos Técnicos
+*   **Compute:** [COMPUTE_REQUIREMENTS]
+*   **Storage:** [STORAGE_REQUIREMENTS]
+...
+##### 8.2 Recursos Humanos
+*   **[ROLE_1]:** [NUMBER_AND_SKILLS_1]
+*   **[ROLE_2]:** [NUMBER_AND_SKILLS_2]
+...
+##### 8.3 Presupuesto Estimado
+**Año 1:** [BUDGET_YEAR_1] **Año 2:** [BUDGET_YEAR_2]
+**ROI Esperado:** [EXPECTED_ROI]
+
+--------------------------------------------------------------------------------
+
+#### 9. TIMELINE DE INVESTIGACIÓN
+##### [QUARTER_1]: [PHASE_1]
+*   [ACTIVITY_1A]
+*   [ACTIVITY_1B]
+...
+##### [QUARTER_2]: [PHASE_2]
+*   [ACTIVITY_2A]
+*   [ACTIVITY_2B]
+... (Detail timeline by quarters)
+
+--------------------------------------------------------------------------------
+
+#### 10. REPOSITORIOS Y OPEN SOURCE STRATEGY
+##### 10.1 Core Repositories
+*   **[REPO_NAME_1]:** [DESCRIPTION_1]
+*   **[REPO_NAME_2]:** [DESCRIPTION_2]
+...
+##### 10.2 Integration Packages
+*   **[PACKAGE_NAME_1]:** [DESCRIPTION_1]
+*   **[PACKAGE_NAME_2]:** [DESCRIPTION_2]
+...
+##### 10.3 Open Source Community Building
+*   **Documentation:** [DOC_DETAILS]
+*   **Examples:** [EXAMPLES_DETAILS]
+...
+
+--------------------------------------------------------------------------------
+
+#### CONCLUSIÓN
+Este esquema de investigación propone un enfoque sistemático para resolver las limitaciones fundamentales de los AI coding assistants actuales. El meta-protocolo resultante transformaría la experiencia de desarrollo, creando sistemas inteligentes que:
+✅ **[BENEFIT_1]**
+✅ **[BENEFIT_2]**
+...
+
+¿Apruebas este esquema para proceder con el deep research detallado?
+Example Usage for AI: An AI tasked with initiating or contributing to a research project would use this template. It would parse the "OBJETIVO PRINCIPAL" and "ANÁLISIS DE PROBLEMAS ACTUALES" to grasp the research's core. It would then follow the "METODOLOGÍA DE INVESTIGACIÓN" phases, using the "EXPERIMENTOS PLANIFICADOS" as concrete action items, and constantly refer to "MÉTRICAS DE ÉXITO" to evaluate its progress and findings. This template serves as the AI's blueprint for structured scientific inquiry.
+--------------------------------------------------------------------------------
+13. Comprehensive AI Development Research Report Template
+This template outlines a comprehensive report on the landscape of AI-assisted software development, detailing advancements, key technologies, and architectural recommendations.
+Purpose for AI: Knowledge Base, Industry Analysis, Strategic Recommendations.
+Source(s): (Based on "compass_artifact_wf-e1717a46-ac1c-46a8-8988-0a63e14bcd68_text_markdown.md")
+Template Structure:
+### AI-Assisted Software Development: Complete Research Report [YEAR_RANGE]
+The landscape of AI-assisted software development has undergone dramatic transformation in the past [TIME_PERIOD] months, with revolutionary advances in [KEY_ADVANCE_1], [KEY_ADVANCE_2], and [KEY_ADVANCE_3]. This comprehensive analysis reveals the emergence of a new paradigm where AI transitions from assistant tools to autonomous development partners, fundamentally reshaping how software is created, reviewed, and maintained.
+
+#### [SECTION_TITLE_1]: [TOPIC_1]
+[DETAILED_ANALYSIS_1]
+
+#### [SECTION_TITLE_2]: [TOPIC_2]
+[DETAILED_ANALYSIS_2]
+
+#### [SECTION_TITLE_3]: [TOPIC_3]
+[DETAILED_ANALYSIS_3]
+... (Detailed sections on programming languages, specific AI models, protocols, etc.)
+
+#### Design blueprint for multi-model AI coding assistant
+Based on this comprehensive research, here's the recommended architecture for a complete multi-model AI coding assistant protocol:
+
+##### Core architecture foundation
+**Agent specialization strategy** should include six primary agents:
+*   **[AGENT_TYPE_1]:** [ROLE_1] using [MODEL_1] for [TASK_1]
+*   **[AGENT_TYPE_2]:** [ROLE_2] using [MODEL_2] for [TASK_2]
+... (List all specialized agents)
+
+##### Communication protocol design
+**[PROTOCOL_NAME]-based infrastructure** should serve as the primary communication layer, with [MESSAGING_PROTOCOL] messaging enabling reliable agent coordination. Each agent should maintain dedicated [SERVER_TYPE] servers exposing their capabilities through standardized Resources, Tools, and Prompts primitives.
+**Security implementation** must include [SECURITY_MEASURE_1], [SECURITY_MEASURE_2], and [SECURITY_MEASURE_3]. The [SECURITY_TOOL] tool should be integrated for automated vulnerability detection.
+
+##### Workflow orchestration patterns
+**[PATTERN_TYPE_1]** works best for [SCENARIO_1], with a [ORCHESTRATOR_TYPE] agent coordinating specialized sub-agents. **[PATTERN_TYPE_2]** enables [SCENARIO_2] where agents need dynamic interaction.
+**[COMMUNICATION_TYPE_1]** using [MESSAGE_QUEUE_TYPE] ensures [BENEFIT_1]. **[COMMUNICATION_TYPE_2]** with [DAG_TYPE] handles [BENEFIT_2].
+
+##### Integration and deployment strategy
+**[PATTERN_NAME_1]** provides [BENEFIT_1] while managing [TASK_1], [TASK_2], and [TASK_3]. **[PATTERN_NAME_2]** with [TOOL_NAME] enables [BENEFIT_A] with [BENEFIT_B].
+**Multi-model routing** should dynamically select optimal models for specific tasks - [MODEL_X] for [TASK_X], [MODEL_Y] for [TASK_Y], [MODEL_Z] for [TASK_Z], specialized models for [TASK_A] and [TASK_B].
+
+##### Quality assurance and monitoring
+**[OBSERVABILITY_TYPE_1]** with [TOOL_1], [TOOL_2], and [TOOL_3] enables [BENEFIT_1]. **[TESTING_TYPE_1]** should validate [BENEFIT_A] and [BENEFIT_B].
+**Continuous learning** mechanisms should capture [FEEDBACK_SOURCE], track [METRIC_1], and incrementally improve agent performance through [LEARNING_METHOD].
+
+#### Implementation roadmap and recommendations
+Organizations should begin with **[PHASE_1_STRATEGY]** using established tools like [TOOL_1] or [TOOL_2] to [PURPOSE_1]. **Phase 2** should introduce [PHASE_2_STRATEGY], gradually expanding to full multi-agent systems.
+
+**Security-first approach** requires implementing [SECURITY_MEASURE_1], [SECURITY_MEASURE_2], and [SECURITY_MEASURE_3]. **Standards adoption** through [STANDARD_1] and emerging protocols like [STANDARD_2] ensures [BENEFIT_A] and avoids [RISK_B].
+**Investment in infrastructure** including [INFRA_1], [INFRA_2], and [INFRA_3] creates the foundation for scalable multi-model deployments. **Team training** on [TRAINING_TOPIC_1] and [TRAINING_TOPIC_2] becomes essential for successful adoption.
+
+The convergence of [FACTOR_1], [FACTOR_2], and [FACTOR_3] creates unprecedented opportunities for transforming software development through intelligent automation. Success depends on thoughtful architecture design, comprehensive security implementation, and gradual adoption strategies that build organizational capability while managing complexity and risk.
+The future of software development lies not in replacing human developers but in creating collaborative human-AI teams where intelligent agents handle routine tasks while humans focus on creative problem-solving and strategic decision-making. This research provides the foundation for building these next-generation development systems that will define the industry's trajectory through [YEAR_RANGE] and beyond.
+Example Usage for AI: An AI tasked with providing strategic recommendations on AI adoption within a development team would ingest this report. It would extract key findings about new models (like OpenAI O3), critical protocols (MCP), and emerging autonomous development frameworks. It would then use the "Design blueprint for multi-model AI coding assistant" and "Implementation roadmap and recommendations" to formulate actionable strategies for senior leadership, serving as a comprehensive strategic memory.
+--------------------------------------------------------------------------------
+14. Universal Project Initial Configuration Guide Template
+This template provides a standard, step-by-step process for initial project setup, ensuring consistency and quality from the very beginning of any Python development project.
+Purpose for AI: Initial Setup Instructions, Best Practice Rule, Environment Configuration Memory.
+Source(s): (Based on "Guia_Configuracion_Inicial_Proyectos.md")
+Template Structure:
+### 🔧 Guía Universal de Configuración Inicial para Proyectos de Desarrollo
+#### 🎯 Objetivo
+Esta guía establece el proceso estándar de configuración inicial que **SIEMPRE** debe seguirse antes de comenzar cualquier desarrollo en un proyecto [LANGUAGE]. Es aplicable a cualquier tipo de proyecto, framework o librería.
+#### ⚠️ Regla Fundamental
+**NUNCA comiences a codificar sin haber completado la configuración inicial completa.**
+
+--------------------------------------------------------------------------------
+
+#### 📋 Checklist de Configuración Inicial
+##### ✅ FASE 1: Análisis y Planificación
+*   [ ] [TASK_1A]
+*   [ ] [TASK_1B]
+...
+##### ✅ FASE 2: Configuración del Entorno de Desarrollo
+*   [ ] [TASK_2A]
+*   [ ] [TASK_2B]
+...
+##### ✅ FASE 3: Configuración de Control de Versiones
+*   [ ] [TASK_3A]
+*   [ ] [TASK_3B]
+...
+##### ✅ FASE 4: Configuración de Calidad de Código
+*   [ ] [TASK_4A]
+*   [ ] [TASK_4B]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🚀 Proceso Detallado
+##### PASO 1: Configuración del Workspace
+###### 1.1 Crear Estructura de Directorios
+[DIR_STRUCTURE_DETAILS]
+###### 1.2 Configurar Workspace del IDE
+[IDE_CONFIG_DETAILS]
+##### PASO 2: Configuración del Entorno Virtual
+###### 2.1 Crear Entorno Virtual
+[VENV_CREATION_DETAILS]
+###### 2.2 Actualizar pip y herramientas base
+[PIP_UPDATE_DETAILS]
+... (Detail all setup steps for environment, dependencies, version control, code quality, etc.)
+
+--------------------------------------------------------------------------------
+
+#### 🔄 Proceso de Verificación
+##### Checklist de Verificación Final
+*   [ ] [FINAL_CHECK_1]
+*   [ ] [FINAL_CHECK_2]
+...
+##### Comandos de Verificación
+[VERIFICATION_COMMANDS]
+
+--------------------------------------------------------------------------------
+
+#### 🎯 Beneficios de Seguir Esta Guía
+##### ✅ [BENEFIT_CATEGORY_1]
+*   [BENEFIT_1A]
+*   [BENEFIT_1B]
+...
+##### ✅ [BENEFIT_CATEGORY_2]
+*   [BENEFIT_2A]
+*   [BENEFIT_2B]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🚨 Errores Comunes a Evitar
+##### ❌ [ERROR_CATEGORY_1]
+*   [ERROR_1A]
+*   [ERROR_1B]
+...
+##### ❌ [ERROR_CATEGORY_2]
+*   [ERROR_2A]
+*   [ERROR_2B]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📚 Recursos Adicionales
+##### Documentación Oficial
+*   [DOC_LINK_1]
+*   [DOC_LINK_2]
+...
+##### Herramientas Recomendadas
+*   **Formatters:** [FORMATTERS]
+*   **Linters:** [LINTERS]
+...
+
+--------------------------------------------------------------------------------
+
+*🔧 Guía Universal de Configuración Inicial*
+*📅 Última actualización: [DATE]*
+*⚡ Aplicable a cualquier proyecto [LANGUAGE]*
+Example Usage for AI: When tasked with initiating a new project, an AI would immediately refer to this guide. It would use the "Checklist de Configuración Inicial" as a step-by-step instruction set for setting up the environment, version control, and code quality tools. The "Errores Comunes a Evitar" section would serve as a rule to prevent common pitfalls, ensuring a robust and consistent project setup.
+--------------------------------------------------------------------------------
+15. Cursor Indexing Optimization Documentation Template
+This template details the process and results of optimizing Cursor's indexing for a project, addressing performance issues caused by excessive file indexing.
+Purpose for AI: Problem-Solving Memory, Optimization Rules, Troubleshooting Guide.
+Source(s): (Based on "Optimizacion_Indexacion_Cursor.md"), (Based on "Resumen_Final_Optimizacion.md"), (Based on "Resumen_Optimizacion_Cursor.md")
+Template Structure:
+### 🔧 Optimización de Indexación en Cursor - Documentación Completa
+#### 📋 Problema Identificado
+##### Síntoma Principal
+*   [SYMPTOM_1]
+*   [SYMPTOM_2]
+...
+##### Causa Raíz
+[ROOT_CAUSE_DETAILS]
+
+#### 🔍 Análisis Detallado
+##### Desglose de Archivos Indexados
+[FILE_BREAKDOWN]
+##### ¿Por qué es problemático?
+1.  **[PROBLEM_AREA_1]**
+    *   [IMPACT_1A]
+    *   [IMPACT_1B]
+...
+2.  **[PROBLEM_AREA_2]**
+    *   [IMPACT_2A]
+    *   [IMPACT_2B]
+...
+
+#### 🎯 Solución Implementada
+##### Archivo .cursorignore Optimizado
+Se creó un archivo .cursorignore que excluye:
+###### ✅ Archivos Excluidos (No Indexados)
+1.  **[CATEGORY_1]**
+2.  **[CATEGORY_2]**
+... (List categories of excluded files)
+###### ❌ Archivos Incluidos (Sí Indexados)
+1.  **[CATEGORY_1]**
+2.  **[CATEGORY_2]**
+... (List categories of included files)
+
+#### 📊 Resultados Esperados / Obtenidos
+##### Antes de la Optimización
+*   **Archivos indexados:** [BEFORE_COUNT]
+*   **Tiempo de indexación:** [BEFORE_TIME]
+...
+##### Después de la Optimización
+*   **Archivos indexados:** [AFTER_COUNT]
+*   **Tiempo de indexación:** [AFTER_TIME]
+...
+##### Reducción Real Obtenida
+*   **[METRIC_1]:** [REDUCTION_1]
+*   **[METRIC_2]:** [REDUCTION_2]
+...
+
+#### 🛠️ Configuración Adicional
+##### Workspace de VS Code Optimizado
+[VSCODE_OPTIMIZATION_DETAILS]
+##### Beneficios de la Configuración
+1.  **[TOOL_1] más rápido**
+    *   [BENEFIT_1A]
+    *   [BENEFIT_1B]
+...
+2.  **[TOOL_2] más eficiente**
+    *   [BENEFIT_2A]
+    *   [BENEFIT_2B]
+...
+
+#### 🔄 Proceso de Verificación
+##### Pasos para Verificar la Optimización
+1.  [STEP_1]
+2.  [STEP_2]
+...
+##### Comandos de Verificación
+[VERIFICATION_COMMANDS]
+
+#### 📚 Mejores Prácticas
+##### Para Futuros Proyectos
+1.  **[PRACTICE_1]**
+    *   [DETAIL_1A]
+    *   [DETAIL_1B]
+...
+2.  **[PRACTICE_2]**
+    *   [DETAIL_2A]
+    *   [DETAIL_2B]
+...
+##### Exclusiones Recomendadas por Tipo de Proyecto
+###### [PROJECT_TYPE_1]
+[RECOMMENDED_EXCLUSIONS_1]
+###### [PROJECT_TYPE_2]
+[RECOMMENDED_EXCLUSIONS_2]
+...
+
+#### 🚨 Solución de Problemas
+##### Problemas Comunes
+1.  **[PROBLEM_1]**
+    *   [SOLUTION_1A]
+    *   [SOLUTION_1B]
+...
+2.  **[PROBLEM_2]**
+    *   [SOLUTION_2A]
+    *   [SOLUTION_2B]
+...
+##### Comandos de Diagnóstico
+[DIAGNOSTIC_COMMANDS]
+
+#### 📈 Métricas de Éxito
+##### Indicadores de Optimización Exitosa
+1.  [INDICATOR_1]
+2.  [INDICATOR_2]
+...
+##### Monitoreo Continuo
+*   [MONITORING_1]
+*   [MONITORING_2]
+...
+
+#### 🎯 Conclusión
+La optimización de indexación en Cursor es **crítica** para proyectos con:
+*   [CRITICAL_SCENARIO_1]
+*   [CRITICAL_SCENARIO_2]
+...
+El archivo .cursorignore optimizado reduce la carga de indexación en un **[REDUCTION_PERCENTAGE]**, mejorando significativamente:
+*   [BENEFIT_1]
+*   [BENEFIT_2]
+...
+Esta configuración sirve como **plantilla** para futuros proyectos similares.
+
+*🔧 Optimización de Indexación en Cursor*
+*📅 Fecha: [DATE]*
+*⚡ Resultado: [FINAL_RESULT_SUMMARY]*
+Example Usage for AI: If an AI encounters performance issues or slow indexing in the Cursor IDE, it would refer to this document as a "memory" of a solved problem. It would identify the "Problema Identificado" and follow the "Solución Implementada" by applying the .cursorignore file. The "Mejores Prácticas" section would guide it on preventing similar issues in future projects, serving as a learned rule for optimization.
+--------------------------------------------------------------------------------
+16. Web Extraction Process Documentation Template
+This template documents an automated web extraction process, including its architecture, tools, step-by-step guide, and performance metrics.
+Purpose for AI: Process Documentation, Technical Memory, Reproducible Workflow Instructions.
+Source(s): (Based on "Documentacion_Proceso_Extraccion.md")
+Template Structure:
+### 📚 Documentación Completa: Proceso de Extracción Web Automatizada
+#### 🎯 Resumen Ejecutivo
+Este documento describe el proceso completo de extracción web automatizada que hemos desarrollado para obtener [TYPE_OF_DATA]. El método es escalable, robusto y puede aplicarse a cualquier sitio web con estructura similar.
+#### 🏗️ Arquitectura del Sistema
+##### Componentes Principales
+1.  **[COMPONENT_NAME_1]** ([FILE_NAME_1])
+    *   [DESCRIPTION_1A]
+    *   [DESCRIPTION_1B]
+...
+2.  **[COMPONENT_NAME_2]** ([FILE_NAME_2])
+    *   [DESCRIPTION_2A]
+    *   [DESCRIPTION_2B]
+...
+
+#### 🔧 Herramientas y Dependencias
+##### Librerías Principales
+*   **[LIBRARY_1]:** [PURPOSE_1]
+*   **[LIBRARY_2]:** [PURPOSE_2]
+...
+##### Configuración de Sesión HTTP
+[HTTP_SESSION_CONFIG_DETAILS]
+
+#### 📋 Proceso de Extracción Paso a Paso
+##### 1. Preparación y Configuración
+###### Identificación de URLs
+[URL_IDENTIFICATION_DETAILS]
+###### Configuración de Base URL
+[BASE_URL_CONFIG_DETAILS]
+##### 2. Extracción de Contenido
+###### Función Principal de Extracción
+[MAIN_EXTRACTION_FUNCTION_DETAILS]
+##### 3. Procesamiento y Limpieza
+###### Limpieza de Markdown
+[MARKDOWN_CLEANUP_DETAILS]
+##### 4. Generación de Metadata YAML
+###### Header YAML Completo
+[YAML_HEADER_DETAILS]
+##### 5. Generación de Tabla de Contenidos
+###### Categorización Automática
+[AUTOMATIC_CATEGORIZATION_DETAILS]
+##### 6. Progreso y Monitoreo
+###### Barra de Progreso
+[PROGRESS_BAR_DETAILS]
+
+#### 📊 Estadísticas y Métricas
+##### Métricas de Rendimiento
+*   **Tiempo de extracción:** [EXTRACTION_TIME]
+*   **Tasa de éxito:** [SUCCESS_RATE]
+*   **Tamaño del archivo:** [FILE_SIZE]
+*   **Total de palabras:** [WORD_COUNT]
+##### Gestión de Errores
+[ERROR_MANAGEMENT_DETAILS]
+
+#### 🔄 Adaptación para Otros Sitios
+##### Pasos para Adaptar el Script
+1.  **[ADAPTATION_STEP_1]**
+2.  **[ADAPTATION_STEP_2]**
+...
+
+#### 🛡️ Consideraciones de Seguridad y Ética
+##### Rate Limiting
+[RATE_LIMITING_DETAILS]
+##### User-Agent Realista
+[USER_AGENT_DETAILS]
+##### Manejo de Errores
+*   [ERROR_HANDLING_FEATURE_1]
+*   [ERROR_HANDLING_FEATURE_2]
+...
+
+#### 📁 Estructura de Archivos Generados
+##### Formato del Archivo Final
+[GENERATED_FILE_FORMAT_DETAILS]
+
+#### 🚀 Optimizaciones Implementadas
+##### 1. [OPTIMIZATION_NAME_1]
+*   [BENEFIT_1A]
+*   [BENEFIT_1B]
+...
+##### 2. [OPTIMIZATION_NAME_2]
+*   [BENEFIT_2A]
+*   [BENEFIT_2B]
+...
+
+#### 🔧 Comandos de Ejecución
+##### Instalación de Dependencias
+[DEPENDENCY_INSTALL_COMMANDS]
+##### Ejecución del Script
+[SCRIPT_EXECUTION_COMMANDS]
+##### Verificación de Resultados
+[RESULT_VERIFICATION_COMMANDS]
+
+#### 📈 Casos de Uso Exitosos
+##### 1. [USE_CASE_1]
+*   **URLs procesadas:** [URL_COUNT_1]
+*   **Tamaño:** [SIZE_1]
+*   **Palabras:** [WORDS_1]
+*   **Tiempo:** [TIME_1]
+##### 2. [USE_CASE_2]
+*   **URLs procesadas:** [URL_COUNT_2]
+*   **Tamaño:** [SIZE_2]
+*   **Palabras:** [WORDS_2]
+*   **Tiempo:** [TIME_2]
+
+#### 🎯 Próximos Pasos y Mejoras
+##### Mejoras Técnicas
+1.  **[TECHNICAL_IMPROVEMENT_1]**
+2.  **[TECHNICAL_IMPROVEMENT_2]**
+...
+##### Funcionalidades Adicionales
+1.  **[ADDITIONAL_FEATURE_1]**
+2.  **[ADDITIONAL_FEATURE_2]**
+...
+##### Integración con Herramientas
+1.  **[TOOL_INTEGRATION_1]**
+2.  **[TOOL_INTEGRATION_2]**
+...
+
+#### 📝 Conclusión
+[CONCLUSION_SUMMARY]
+
+*📚 Documentación generada automáticamente - Proceso de Extracción Web*
+*🔄 Última actualización: [DATE]*
+*⚡ Método probado y validado en múltiples sitios web*
+Example Usage for AI: An AI tasked with extracting data from a new website would use this document as a guide. It would follow the "Proceso de Extracción Paso a Paso" as detailed instructions, apply the "Adaptación para Otros Sitios" guidelines, and consider the "Consideraciones de Seguridad y Ética" as rules for ethical scraping. The "Optimizaciones Implementadas" section would serve as a memory of successful techniques to apply.
+--------------------------------------------------------------------------------
+17. Reusable Scripts System Template
+This template describes a reusable system for managing scripts, emphasizing code reuse, centralized configuration, and unified interface.
+Purpose for AI: System Architecture Memory, Workflow Instructions, Best Practice Rules.
+Source(s): (Based on "README_Sistema_Reutilizable.md") and (Based on "Resumen_Sistema_Reutilizable.md")
+Template Structure:
+### 🔧 SISTEMA REUTILIZABLE DE SCRIPTS [SYSTEM_PURPOSE]
+#### 🎯 OBJETIVO
+Este sistema permite **reutilizar** todos los scripts existentes en lugar de crear nuevos cada vez. Proporciona una interfaz unificada y configurable para gestionar [DATA_TYPE].
+
+--------------------------------------------------------------------------------
+
+#### 📁 ESTRUCTURA DEL SISTEMA
+##### Scripts Principales:
+*   [MAIN_SCRIPT_1] - **[ROLE_1]**
+*   [MAIN_SCRIPT_2] - **[ROLE_2]**
+*   [MAIN_SCRIPT_3] - **[ROLE_3]**
+##### Scripts Reutilizables:
+*   [REUSABLE_SCRIPT_1] - [DESCRIPTION_1]
+*   [REUSABLE_SCRIPT_2] - [DESCRIPTION_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🚀 USO RÁPIDO
+##### 1. [USAGE_METHOD_1] (Recomendado)
+[USAGE_DETAILS_1]
+##### 2. [USAGE_METHOD_2]
+[USAGE_DETAILS_2]
+
+--------------------------------------------------------------------------------
+
+#### 📋 CONFIGURACIONES DISPONIBLES
+##### [CONFIG_NAME_1] (Prioridad [PRIORITY_1])
+*   **Descripción:** [DESCRIPTION_1]
+*   **Incluye:** [ITEMS_INCLUDED_1]
+*   **Uso:** [USAGE_COMMAND_1]
+##### [CONFIG_NAME_2] (Prioridad [PRIORITY_2])
+*   **Descripción:** [DESCRIPTION_2]
+*   **Incluye:** [ITEMS_INCLUDED_2]
+*   **Uso:** [USAGE_COMMAND_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔧 CÓMO AGREGAR NUEVAS CONFIGURACIONES
+##### 1. Editar [CONFIG_FILE]
+[EDITING_INSTRUCTIONS_1]
+##### 2. Usar la nueva configuración
+[USAGE_INSTRUCTIONS_2]
+
+--------------------------------------------------------------------------------
+
+#### 📊 FLUJO DE TRABAJO RECOMENDADO
+##### Para [SCENARIO]:
+1.  **[STEP_1]**
+2.  **[STEP_2]**
+...
+
+--------------------------------------------------------------------------------
+
+#### 🎯 VENTAJAS DEL SISTEMA REUTILIZABLE
+##### ✅ Beneficios:
+*   **[BENEFIT_1]**
+*   **[BENEFIT_2]**
+...
+##### 🔄 Reutilización de Scripts:
+*   [SCRIPT_NAME_1] → Usado por [CALLING_SCRIPT_1]
+*   [SCRIPT_NAME_2] → Usado por [CALLING_SCRIPT_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 📝 EJEMPLOS DE USO
+##### Caso 1: [USE_CASE_1]
+[EXAMPLE_DETAILS_1]
+##### Caso 2: [USE_CASE_2]
+[EXAMPLE_DETAILS_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔍 COMANDOS ÚTILES
+##### [COMMAND_CATEGORY_1]:
+[COMMAND_LIST_1]
+##### [COMMAND_CATEGORY_2]:
+[COMMAND_LIST_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🚨 MEJORES PRÁCTICAS
+##### ✅ HACER:
+*   [DO_PRACTICE_1]
+*   [DO_PRACTICE_2]
+...
+##### ❌ NO HACER:
+*   [DONT_PRACTICE_1]
+*   [DONT_PRACTICE_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🔧 MANTENIMIENTO
+##### Actualizar configuración:
+1.  [UPDATE_STEP_1]
+2.  [UPDATE_STEP_2]
+...
+##### Agregar nuevos scripts:
+1.  [ADD_SCRIPT_STEP_1]
+2.  [ADD_SCRIPT_STEP_2]
+...
+##### Solución de problemas:
+[TROUBLESHOOTING_GUIDE]
+
+--------------------------------------------------------------------------------
+
+#### 📞 SOPORTE
+##### Comandos de ayuda:
+[HELP_COMMANDS]
+##### Logs y errores:
+[LOG_AND_ERROR_DETAILS]
+
+--------------------------------------------------------------------------------
+
+**🎉 ¡SISTEMA REUTILIZABLE LISTO PARA USAR!**
+Ahora puedes gestionar [DATA_TYPE] de forma eficiente sin crear scripts duplicados.
+Example Usage for AI: When a new list of whitepapers needs to be processed, instead of creating a new script, the AI would consult this template. It would learn to "Agregar configuración" to config_whitepapers.json and then use the whitepaper_manager.py (master script) as instructed in "Uso Rápido" to process the new data, adhering to "MEJORES PRÁCTICAS" like "No más scripts duplicados" (no more duplicate scripts). This template acts as a rule for efficient and standardized workflow.
+--------------------------------------------------------------------------------
+18. Script Cleanup Report Template
+This template summarizes the results of a script cleanup effort, detailing deleted and maintained scripts, and outlining the benefits achieved.
+Purpose for AI: System Maintenance Memory, Efficiency Reporting, Architecture State.
+Source(s): (Based on "Reporte_Limpieza_Scripts.md")
+Template Structure:
+### 🧹 REPORTE DE LIMPIEZA DE SCRIPTS
+#### 📊 RESUMEN EJECUTIVO
+**Fecha de Limpieza:** [DATE_OF_CLEANUP]
+**Estado:** [STATUS]
+**Scripts Eliminados:** [NUMBER_DELETED] scripts duplicados/obsoletos
+**Scripts Mantenidos:** [NUMBER_MAINTAINED] scripts esenciales
+
+--------------------------------------------------------------------------------
+
+#### 🗑️ SCRIPTS ELIMINADOS
+##### [CATEGORY_1] ([NUMBER_DELETED_1] eliminados):
+*   ❌ [SCRIPT_NAME_1] - [REASON_1]
+*   ❌ [SCRIPT_NAME_2] - [REASON_2]
+...
+##### [CATEGORY_2] ([NUMBER_DELETED_2] eliminados):
+*   ❌ [SCRIPT_NAME_A] - [REASON_A]
+*   ❌ [SCRIPT_NAME_B] - [REASON_B]
+... (List all deleted scripts with reasons)
+
+--------------------------------------------------------------------------------
+
+#### ✅ SCRIPTS MANTENIDOS
+##### [CATEGORY_1] ([NUMBER_MAINTAINED_1]):
+*   ✅ [SCRIPT_NAME_1] - **[ROLE_1]**
+*   ✅ [SCRIPT_NAME_2] - **[ROLE_2]**
+...
+##### [CATEGORY_2] ([NUMBER_MAINTAINED_2]):
+*   ✅ [SCRIPT_NAME_A] - [DESCRIPTION_A]
+*   ✅ [SCRIPT_NAME_B] - [DESCRIPTION_B]
+... (List all maintained scripts with descriptions/roles)
+
+--------------------------------------------------------------------------------
+
+#### 📈 BENEFICIOS DE LA LIMPIEZA
+##### Reducción de Código:
+*   **Scripts eliminados:** [NUM_ELIMINATED]
+*   **Reducción de complejidad:** [COMPLEXITY_REDUCTION]
+*   **Mantenimiento simplificado:** [MAINTENANCE_SIMPLIFICATION]
+##### Mejora de Organización:
+*   **Estructura clara:** [STRUCTURE_CLARITY]
+*   **Funcionalidad consolidada:** [FUNCTIONALITY_CONSOLIDATION]
+*   **Documentación completa:** [DOCUMENTATION_COMPLETENESS]
+##### Eficiencia Operativa:
+*   **Tiempo de desarrollo:** [DEVELOPMENT_TIME_IMPROVEMENT]
+*   **Consistencia:** [CONSISTENCY_LEVEL]
+*   **Escalabilidad:** [SCALABILITY_IMPROVEMENT]
+
+--------------------------------------------------------------------------------
+
+#### 🔧 ESTRUCTURA FINAL
+[DESCRIPTION_OF_FINAL_STRUCTURE]
+
+--------------------------------------------------------------------------------
+
+#### 🎯 FUNCIONALIDADES MANTENIDAS
+##### [FUNCTIONALITY_CATEGORY_1]:
+*   ✅ [FUNCTION_1A]
+*   ✅ [FUNCTION_1B]
+...
+##### [FUNCTIONALITY_CATEGORY_2]:
+*   ✅ [FUNCTION_2A]
+*   ✅ [FUNCTION_2B]
+... (List all maintained functionalities)
+
+--------------------------------------------------------------------------------
+
+#### 🚀 USO POST-LIMPIEZA
+##### Comandos Principales:
+[MAIN_COMMANDS]
+##### Para Nuevas Listas:
+1.  **[STEP_1]**
+2.  **[STEP_2]**
+3.  **[STEP_3]**
+
+--------------------------------------------------------------------------------
+
+#### ✅ VERIFICACIÓN POST-LIMPIEZA
+##### Estado del Sistema:
+*   ✅ **Scripts disponibles:** [SCRIPTS_AVAILABLE]
+*   ✅ **Configuraciones:** [CONFIGS_AVAILABLE]
+...
+##### Funcionalidad Verificada:
+*   ✅ [VERIFIED_FUNCTION_1]
+*   ✅ [VERIFIED_FUNCTION_2]
+...
+
+--------------------------------------------------------------------------------
+
+#### 🎉 RESULTADO FINAL
+##### ✅ LIMPIEZA COMPLETADA:
+*   **[METRIC_1]**
+*   **[METRIC_2]**
+...
+##### 🚀 PRÓXIMOS PASOS:
+1.  **[NEXT_STEP_1]**
+2.  **[NEXT_STEP_2]**
+...
+
+--------------------------------------------------------------------------------
+
+**🎯 ¡LIMPIEZA COMPLETADA EXITOSAMENTE!**
+El proyecto ahora tiene una estructura limpia, eficiente y mantenible con el sistema reutilizable funcionando perfectamente.
+Example Usage for AI: An AI responsible for project maintenance would consult this report to understand the current state of the codebase after a cleanup. It would use the "SCRIPTS MANTENIDOS" section as a memory of which scripts are authoritative and rely on the "USO POST-LIMPIEZA" instructions for how to interact with the refined system, ensuring its future actions align with the optimized structure.
+--------------------------------------------------------------------------------
+19. TradingView Extractions Summary Template
+This template summarizes web extraction efforts from specific platforms, detailing extracted content, success rates, and the extractors used.
+Purpose for AI: Data Acquisition Memory, Extraction Process Report, Content Overview.
+Source(s): (Based on "Resumen_Extracciones_TradingView.md")
+Template Structure:
+### 📊 Resumen de Extracciones de [PLATFORM_NAME]
+#### 🎯 Objetivo
+Extraer documentación completa de diferentes secciones de [PLATFORM_NAME] para crear una base de conocimiento consolidada en formato [OUTPUT_FORMAT].
+#### 📈 Extracciones Completadas
+##### 1. 📊 [SECTION_NAME_1] ([CONTENT_TYPE_1])
+*   **Archivo:** [FILE_NAME_1]
+*   **Ubicación:** [LOCATION_1]
+*   **Tamaño:** [SIZE_1]
+*   **Palabras:** [WORDS_1]
+*   **[ITEMS_EXTRACTED_COUNT_1]:** [SUCCESS_RATE_1]
+*   **Tiempo:** [TIME_1]
+**[ITEMS_INCLUDED_TITLE_1]:**
+*   **[CATEGORY_1A]:** [ITEMS_1A]
+*   **[CATEGORY_1B]:** [ITEMS_1B]
+...
+##### 2. 📊 [SECTION_NAME_2] ([CONTENT_TYPE_2])
+*   **Archivo:** [FILE_NAME_2]
+*   **Ubicación:** [LOCATION_2]
+*   **Tamaño:** [SIZE_2]
+*   **Palabras:** [WORDS_2]
+*   **[ITEMS_EXTRACTED_COUNT_2]:** [SUCCESS_RATE_2]
+*   **Tiempo:** [TIME_2]
+**[ITEMS_INCLUDED_TITLE_2]:**
+*   **[CATEGORY_2A]:** [ITEMS_2A]
+*   **[CATEGORY_2B]:** [ITEMS_2B]
+... (Detail all completed extractions)
+
+#### 🔧 Extractores Utilizados
+##### 1. [EXTRACTOR_NAME_1].py
+*   **Versión:** [VERSION_1]
+*   **Características:**
+    *   [FEATURE_1A]
+    *   [FEATURE_1B]
+...
+##### 2. [EXTRACTOR_NAME_2].py
+*   **Versión:** [VERSION_2]
+*   **Características:**
+    *   [FEATURE_2A]
+    *   [FEATURE_2B]
+... (Detail all used extractors)
+
+#### 📊 Estadísticas Totales
+##### Resumen General
+*   **Total de archivos generados:** [TOTAL_FILES]
+*   **Total de palabras extraídas:** [TOTAL_WORDS]
+*   **Tamaño total:** [TOTAL_SIZE]
+*   **Tiempo total:** [TOTAL_TIME]
+*   **Tasa de éxito:** [OVERALL_SUCCESS_RATE]
+##### Contenido por Categoría
+*   **[CATEGORY_NAME_1]:** [COUNT_1]
+*   **[CATEGORY_NAME_2]:** [COUNT_2]
+...
+*   **Total de elementos:** [TOTAL_ELEMENTS]
+
+#### 🎯 Próximas Secciones a Extraer
+##### Secciones Identificadas
+1.  **[NEXT_SECTION_1]** - [DESCRIPTION_1]
+2.  **[NEXT_SECTION_2]** - [DESCRIPTION_2]
+...
+##### URLs de Referencia
+*   **[SECTION_REF_1]:** [URL_1]
+*   **[SECTION_REF_2]:** [URL_2]
+...
+
+#### 🚀 Beneficios Obtenidos
+##### 1. [BENEFIT_CATEGORY_1]
+*   ✅ [BENEFIT_1A]
+*   ✅ [BENEFIT_1B]
+...
+##### 2. [BENEFIT_CATEGORY_2]
+*   ✅ [BENEFIT_2A]
+*   ✅ [BENEFIT_2B]
+...
+
+#### 📁 Estructura de Archivos
+##### Archivos Generados
+[LIST_OF_GENERATED_FILES]
+##### Archivos de Código
+[LIST_OF_CODE_FILES]
+
+#### 🔄 Proceso de Extracción
+##### 1. [PROCESS_STEP_1]
+*   [DETAIL_1A]
+*   [DETAIL_1B]
+...
+##### 2. [PROCESS_STEP_2]
+*   [DETAIL_2A]
+*   [DETAIL_2B]
+... (Detail the extraction process steps)
+
+#### 🎯 Próximos Pasos
+##### 1. [NEXT_STEP_1]
+*   [DETAIL_1A]
+*   [DETAIL_1B]
+...
+##### 2. [NEXT_STEP_2]
+*   [DETAIL_2A]
+*   [DETAIL_2B]
+...
+
+#### 📚 Recursos Técnicos
+##### Dependencias Utilizadas
+*   [DEPENDENCY_1]: [PURPOSE_1]
+*   [DEPENDENCY_2]: [PURPOSE_2]
+...
+##### Configuración de Sesión
+*   [CONFIG_1]
+*   [CONFIG_2]
+...
+
+#### 🏆 Resultados Destacados
+##### [RESULT_CATEGORY_1]
+*   ✅ [RESULT_1A]
+*   ✅ [RESULT_1B]
+...
+##### [RESULT_CATEGORY_2]
+*   ✅ [RESULT_2A]
+*   ✅ [RESULT_2B]
+...
+
+*📊 Resumen generado automáticamente*
+*🔄 Última actualización: [DATE]*
+*⚡ Extracciones completadas: [PROGRESS_SUMMARY]*
+Example Usage for AI: An AI considering new data sources for market analysis would refer to this report. It would review the "Extracciones Completadas" and "Extractores Utilizados" to understand the types of data successfully extracted and the methods proven effective. The "Próximas Secciones a Extraer" would guide its future data acquisition efforts, serving as a memory of available and planned data resources.
+--------------------------------------------------------------------------------
+20. Protocol for AI Coding Assistants for Cryptocurrencies and Finance Template
+This template outlines a comprehensive methodology for implementing AI coding assistants in crypto and finance development, including strategic frameworks, technical stacks, and a detailed roadmap.
+Purpose for AI: Strategic Blueprint, Domain-Specific Instructions, Best Practices, Performance Metrics.
+Source(s): (Based on "compass_artifact_wf-2f78343e-e4a8-40d7-8135-f92199a60e5f_text_markdown.md")
+Template Structure:
+### Protocolo Integral: AI Coding Assistants para Criptomonedas y Finanzas
+#### RESUMEN EJECUTIVO
+Este protocolo presenta una metodología completa para implementar AI coding assistants en el desarrollo de aplicaciones de criptomonedas y finanzas, basada en investigación extensiva y mejores prácticas de la industria. **Las organizaciones que implementan estos protocolos sistemáticamente obtienen [PRODUCTIVITY_GAIN_PERCENT] de productividad, reducción de errores del [ERROR_REDUCTION_PERCENT] y mejoras en satisfacción laboral del [SATISFACTION_IMPROVEMENT_PERCENT]**.
+La implementación exitosa requiere un enfoque de [NUM_PHASES] fases durante [NUM_WEEKS] semanas, combinando herramientas especializadas, frameworks de prompt engineering, arquitecturas de aprendizaje continuo y workflows específicos para desarrollo blockchain y fintech.
+
+#### 1. ARQUITECTURA FUNDAMENTAL DEL PROTOCOLO
+##### Marco Estratégico OODA Adaptado
+El protocolo se basa en el **Framework OODA (Observe-Orient-Decide-Act)** adaptado para desarrollo con IA:
+**Observe:** [OBSERVE_DESCRIPTION]
+**Orient:** [ORIENT_DESCRIPTION]
+**Decide:** [DECIDE_DESCRIPTION]
+**Act:** [ACT_DESCRIPTION]
+##### Stack Tecnológico Recomendado
+**Herramientas Principales por Caso de Uso:**
+*   **[USE_CASE_1]:** [TOOL_1] + [TOOL_2] + [TOOL_3]
+*   **[USE_CASE_2]:** [TOOL_A] + [TOOL_B] + [TOOL_C]
+...
+
+#### 2. PROTOCOLOS DE DESARROLLO POR DOMINIO
+##### [DOMAIN_1] Development
+###### [INTEGRATION_PROTOCOL_1]
+[PROTOCOL_DETAILS_1]
+###### [FRAMEWORK_2] para Documentación Actualizada
+**Prompt Template para [SUB_DOMAIN]:**
+[PROMPT_TEMPLATE_DETAILS]
+... (Detail all domain-specific development protocols)
+
+#### 3. FRAMEWORKS DE PROMPT ENGINEERING AVANZADO
+##### Sistema CARE para Crypto Development
+**Completeness:** [COMPLETENESS_DESCRIPTION]
+**Accuracy:** [ACCURACY_DESCRIPTION]
+**Relevance:** [RELEVANCE_DESCRIPTION]
+**Efficiency:** [EFFICIENCY_DESCRIPTION]
+##### Templates Especializados por Dominio
+###### [TEMPLATE_DOMAIN_1]
+[TEMPLATE_DETAILS_1]
+###### [TEMPLATE_DOMAIN_2]
+[TEMPLATE_DETAILS_2]
+...
+##### Chain-of-Thought para Problemas Complejos
+###### [COT_SUB_DOMAIN]
+[COT_DETAILS]
+
+#### 4. ARQUITECTURAS DE ACTUALIZACIÓN DE CONOCIMIENTO
+##### Sistema RAG para Desarrollo Crypto
+###### Implementación de Crypto-Specific RAG
+[RAG_IMPLEMENTATION_DETAILS]
+##### Continuous Learning para Protocols
+###### Knowledge Update Pipeline
+[KNOWLEDGE_UPDATE_PIPELINE_DETAILS]
+
+#### 5. WORKFLOWS Y ALGORITMOS ORGANIZATIVOS
+##### Algoritmo de Selección de Herramientas AI
+###### Decision Tree para Crypto Development
+[DECISION_TREE_DETAILS]
+##### Paralelización de Desarrollo Crypto
+###### Multi-Agent Crypto Development
+[MULTI_AGENT_DEVELOPMENT_DETAILS]
+
+#### 6. IMPLEMENTACIÓN PRÁCTICA: ROADMAP [NUM_WEEKS] SEMANAS
+##### Fase 1: [PHASE_NAME_1] (Semanas [WEEKS_RANGE_1])
+###### Semanas [SUB_WEEKS_RANGE_1]: [SUB_PHASE_NAME_1]
+**Objetivos:**
+*   [OBJECTIVE_1A]
+*   [OBJECTIVE_1B]
+...
+**Deliverables:**
+*   [DELIVERABLE_1A]
+*   [DELIVERABLE_1B]
+...
+**Herramientas Setup:**
+[TOOLS_SETUP_DETAILS]
+###### Semanas [SUB_WEEKS_RANGE_2]: [SUB_PHASE_NAME_2]
+**Alcance:** [SCOPE] **Duración:** [DURATION] **Enfoque:** [FOCUS]
+**Training Curriculum:**
+*   [MODULE_1]
+*   [MODULE_2]
+...
+##### Fase 2: [PHASE_NAME_2] (Semanas [WEEKS_RANGE_2])
+###### Implementación por Ondas
+**Onda 1 (Semanas [WAVES_RANGE_1]):** [TARGET_GROUP_1]
+**Onda 2 (Semanas [WAVES_RANGE_2]):** [TARGET_GROUP_2]
+...
+###### Training Especializado por Dominio
+**[DOMAIN_TRACK_1]:**
+*   [TOPIC_1A]
+*   [TOPIC_1B]
+...
+**[DOMAIN_TRACK_2]:**
+*   [TOPIC_2A]
+*   [TOPIC_2B]
+...
+##### Fase 3: [PHASE_NAME_3] (Semanas [WEEKS_RANGE_3])
+###### Advanced Capabilities
+**Semanas [CAP_WEEKS_RANGE_1]:** [CAPABILITY_1]
+**Semanas [CAP_WEEKS_RANGE_2]:** [CAPABILITY_2]
+...
+###### Métricas de Éxito Finales
+*   **[METRIC_1]:** [TARGET_1]
+*   **[METRIC_2]:** [TARGET_2]
+...
+
+#### 7. MÉTRICAS Y KPIS ESPECÍFICOS
+##### Métricas de Productividad Crypto
+###### [SUB_DOMAIN_1] Development
+*   **[METRIC_1]:** [TARGET_1]
+*   **[METRIC_2]:** [TARGET_2]
+...
+###### [SUB_DOMAIN_2] Development
+*   **[METRIC_1]:** [TARGET_1]
+*   **[METRIC_2]:** [TARGET_2]
+...
+##### ROI Calculation para Crypto/Finanzas
+###### Beneficios Cuantificables
+**[BENEFIT_CATEGORY_1]:**
+*   [SUB_BENEFIT_1]: [IMPACT_1]
+*   [SUB_BENEFIT_2]: [IMPACT_2]
+...
+**ROI Proyectado:**
+*   [INITIAL_INVESTMENT_DETAILS]
+*   [ANNUAL_BENEFITS_DETAILS]
+*   [ROI_PROJECTION_DETAILS]
+
+#### 8. PROTOCOLOS DE SEGURIDAD Y COMPLIANCE
+##### Security-First AI Development
+###### Automated Security Scanning
+[SECURITY_SCANNING_DETAILS]
+###### Compliance Automation
+[COMPLIANCE_AUTOMATION_DETAILS]
+##### Regulatory Compliance Framework
+###### Automated Compliance Monitoring
+*   **[REGULATION_1]:** [MONITORING_DETAILS_1]
+*   **[REGULATION_2]:** [MONITORING_DETAILS_2]
+...
+
+#### 9. CASOS DE ÉXITO Y APLICACIONES REALES
+##### Caso 1: [CASE_STUDY_1]
+**Implementación:** [IMPLEMENTATION_DETAILS_1] **Resultados:**
+*   [RESULT_1A]
+*   [RESULT_1B]
+...
+##### Caso 2: [CASE_STUDY_2]
+**Implementación:** [IMPLEMENTATION_DETAILS_2] **Resultados:**
+*   [RESULT_2A]
+*   [RESULT_2B]
+... (List all case studies)
+
+#### 10. RECURSOS Y HERRAMIENTAS RECOMENDADAS
+##### Plataformas Principales
+*   **[PLATFORM_1]:** [DESCRIPTION_1] ([COST_1])
+*   **[PLATFORM_2]:** [DESCRIPTION_2] ([AVAILABILITY_2])
+...
+##### Bibliotecas Esenciales
+*   **[LIBRARY_1]:** [PURPOSE_1]
+*   **[LIBRARY_2]:** [PURPOSE_2]
+...
+##### APIs y Servicios
+*   **[API_1]:** [PURPOSE_1]
+*   **[API_2]:** [PURPOSE_2]
+...
+
+#### CONCLUSIONES Y PRÓXIMOS PASOS
+##### Implementación Inmediata (Próximas [NUM_WEEKS] semanas)
+1.  **[WEEK_1_ACTIVITY]:** [DETAILS_1]
+2.  **[WEEK_2_ACTIVITY]:** [DETAILS_2]
+...
+##### Factores Críticos de Éxito
+*   **[FACTOR_1]:** [DESCRIPTION_1]
+*   **[FACTOR_2]:** [DESCRIPTION_2]
+...
+##### Transformación Esperada
+La implementación completa de este protocolo transformará la capacidad de desarrollo de crypto y finanzas, permitiendo:
+*   **[TRANSFORMATION_1]**
+*   **[TRANSFORMATION_2]**
+...
+Este protocolo representa la evolución natural del desarrollo de software en crypto y finanzas, combinando la potencia de la inteligencia artificial con la experiencia humana para crear sistemas más seguros, eficientes y innovadores.
+Example Usage for AI: An AI tasked with advising on AI adoption in the crypto/finance sector would use this protocol as its central knowledge base. It would identify "Stack Tecnológico Recomendado" and "Frameworks de Prompt Engineering Avanzado" to suggest specific tools and techniques. The "IMPLEMENTACIÓN PRÁCTICA: ROADMAP" would provide a phased implementation plan, while "MÉTRICAS Y KPIS ESPECÍFICOS" and "ROI Calculation" would enable the AI to quantify the benefits and risks for strategic recommendations to senior leadership.
+--------------------------------------------------------------------------------
+21. Technical Protocol for Multi-AI Orchestration Template
+This template describes a technical protocol for orchestrating multiple AI tools, focusing on architectural patterns, configuration, and practical implementation considerations.
+Purpose for AI: Technical Instructions, Architecture Memory, Implementation Rules.
+Source(s): (Based on "compass_artifact_wf-503390db-15e7-4524-a26a-4e6fc52e71bd_text_markdown.md")
+Template Structure:
+### Protocolo Técnico para Orquestación Multi-IA: Implementación Práctica
+#### Introducción
+La investigación exhaustiva revela que la orquestación efectiva de estas herramientas requiere un **enfoque arquitectónico híbrido** que combine el **[PROTOCOL_TYPE_1]** como columna vertebral con **[PROTOCOL_TYPE_2]** y **[PROTOCOL_TYPE_3]**. Este protocolo proporciona implementación práctica para coordinación en workflows paralelos.
+#### Arquitectura del Sistema de Orquestación
+##### Componentes centrales identificados
+**[COMPONENT_1] como Hub Central:** [DETAILS_COMPONENT_1]
+**[COMPONENT_2] Especializadas:** [DETAILS_COMPONENT_2]
+**[COMPONENT_3] Automatizables:** [DETAILS_COMPONENT_3]
+**Limitación Crítica:** [CRITICAL_LIMITATION_DETAILS]
+
+#### Configuración Técnica Específica
+##### Paso 1: Configuración del Hub [HUB_NAME] Central
+[HUB_CONFIGURATION_DETAILS]
+##### Paso 2: Configuración de [API_TYPE]
+[API_CONFIGURATION_DETAILS]
+##### Paso 3: Gestión de Contexto Compartido
+[SHARED_CONTEXT_MANAGEMENT_DETAILS]
+
+#### Scripts de Integración
+##### Orquestador Principal
+[ORCHESTRATOR_SCRIPT_DETAILS]
+##### Implementaciones Específicas por Herramienta
+[TOOL_SPECIFIC_IMPLEMENTATIONS]
+
+#### Protocolos de Comunicación
+##### Configuración [PROTOCOL_NAME] Avanzada
+[ADVANCED_PROTOCOL_CONFIG]
+
+#### Manejo de APIs y Rate Limits
+##### Sistema de Rate Limiting Avanzado
+[ADVANCED_RATE_LIMITING_DETAILS]
+
+#### Sincronización entre Herramientas
+##### Sistema de Workflow Coordinator
+[WORKFLOW_COORDINATOR_DETAILS]
+
+#### Ejemplo de Uso Completo
+##### Workflow de Desarrollo Automatizado
+[AUTOMATED_WORKFLOW_EXAMPLE]
+
+#### Consideraciones de Implementación
+##### Limitaciones identificadas y soluciones
+**[LIMITATION_1]** - Solucionado [SOLUTION_1].
+**[LIMITATION_2]** - Implementado [SOLUTION_2].
+**[LIMITATION_3]** - [SOLUTION_3].
+**[LIMITATION_4]** - [SOLUTION_4].
+##### Mejores prácticas operacionales
+**Monitoreo continuo** es esencial - implementar [MONITORING_METRICS].
+**Configuración centralizada** simplifica gestión - usar [CONFIG_METHODS].
+**Seguridad por diseño** - nunca hardcodear API keys, usar [SECURITY_MEASURES].
+**Escalabilidad horizontal** - arquitectura permite [SCALABILITY_DETAILS].
+Este protocolo proporciona una base técnica sólida para orquestación multi-IA en producción, combinando lo mejor de cada herramienta en workflows coordinados y eficientes.
+Example Usage for AI: An AI developing or troubleshooting an multi-AI system would refer to this protocol for technical instructions. It would use "Arquitectura del Sistema de Orquestación" to understand how different tools (MCP, REST APIs, CLIs) integrate. The "Manejo de APIs y Rate Limits" and "Consideraciones de Implementación" sections would provide crucial rules for handling external services and limitations, ensuring robust and compliant operation.
+--------------------------------------------------------------------------------
+22. MCP Project Structure Template
+This template provides a brief overview of the key components and files within a Model Context Protocol (MCP) project, focused on conversation analysis.
+Purpose for AI: Project Structure Memory, Component Overview.
+Source(s): (Based on "mcp_project_structure.md")
+Template Structure:
+### Estructura Completa del Proyecto MCP: [PROJECT_NAME]
+#### Archivos de Configuración Clave
+[LIST_OF_KEY_CONFIG_FILES]
+#### Ejemplos de Conversaciones de Prueba
+[LIST_OF_TEST_CONVERSATION_EXAMPLES]
+#### Templates de Prevención
+[LIST_OF_PREVENTION_TEMPLATES]
+#### Uso del MCP Server
+##### En [PLATFORM_1]
+[USAGE_DETAILS_1]
+##### Ejemplo de Uso
+[USAGE_EXAMPLE]
+Example Usage for AI: When interacting with an MCP-based project, an AI could quickly reference this template to understand the project's foundational structure. It would use the "Archivos de Configuración Clave" as memory to locate essential setup files and "Ejemplos de Conversaciones de Prueba" to understand expected data formats for its tasks. This is a very concise template for quick reference.
+--------------------------------------------------------------------------------
+Next Steps: Please let me know which of these templates you'd like to dive into first, or if you have specific questions about how an AI would use any of these for its tasks, rules, or memories. We can also discuss how these templates inform strategic recommendations for senior leadership.

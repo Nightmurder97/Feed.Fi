@@ -1,0 +1,15 @@
+# Reglas de Diagnóstico
+
+Metodología sistemática para identificar y resolver problemas técnicos. Incluye síntomas precisos, evidencia visual/logs, investigación exhaustiva, causa raíz y consideración de librerías externas.
+
+description: |
+  - SIEMPRE solicitar síntomas observables precisos (qué ve en pantalla, mensajes de error)
+  - SIEMPRE solicitar capturas de pantalla o logs de consola para errores UI/runtime
+  - ANTES DE CODIFICAR, investigar exhaustivamente archivos relevantes
+  - Identificar causa raíz técnica, no solo síntomas superficiales
+  - CONSIDERAR contexto y limitaciones de librerías externas
+  - Revisar package.json, vite.config.ts, tsconfig.json, requirements.txt
+
+globs: ["**/*.py", "**/*.js", "**/*.ts", "**/*.jsx", "**/*.tsx", "**/package.json", "**/vite.config.*", "**/tsconfig.json", "**/requirements.txt"]
+alwaysApply: true
+---

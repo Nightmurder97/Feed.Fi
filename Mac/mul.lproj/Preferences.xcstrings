@@ -1,0 +1,474 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "2C0-LP-36T.title" : {
+      "comment" : "Class = \"NSWindow\"; title = \"Preferences\"; ObjectID = \"2C0-LP-36T\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Preferences"
+          }
+        }
+      }
+    },
+    "4Pi-2Y-XmV.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Extra Extra Large\"; ObjectID = \"4Pi-2Y-XmV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Extra Extra Large"
+          }
+        }
+      }
+    },
+    "6bb-c0-guo.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Download:\"; ObjectID = \"6bb-c0-guo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Download:"
+          }
+        }
+      }
+    },
+    "7e2-TV-hth.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Every 4 hours\"; ObjectID = \"7e2-TV-hth\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Every 4 hours"
+          }
+        }
+      }
+    },
+    "7gV-gL-Nue.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Every 8 hours\"; ObjectID = \"7gV-gL-Nue\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Every 8 hours"
+          }
+        }
+      }
+    },
+    "AaA-Rr-UYD.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Check for Updates\"; ObjectID = \"AaA-Rr-UYD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Check for Updates"
+          }
+        }
+      }
+    },
+    "BJB-pP-mhQ.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Article Content:\"; ObjectID = \"BJB-pP-mhQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Article Content:"
+          }
+        }
+      }
+    },
+    "CgU-dE-Qtb.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Browser:\"; ObjectID = \"CgU-dE-Qtb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Browser:"
+          }
+        }
+      }
+    },
+    "ckZ-0Q-rNz.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Large\"; ObjectID = \"ckZ-0Q-rNz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Large"
+          }
+        }
+      }
+    },
+    "dm8-Xy-0Ba.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Check automatically\"; ObjectID = \"dm8-Xy-0Ba\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Check automatically"
+          }
+        }
+      }
+    },
+    "doa-Wq-4Uq.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Manually only\"; ObjectID = \"doa-Wq-4Uq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Manually only"
+          }
+        }
+      }
+    },
+    "EMq-9M-zTJ.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Press the Shift key to do the opposite.\"; ObjectID = \"EMq-9M-zTJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Press the Shift key to do the opposite."
+          }
+        }
+      }
+    },
+    "Eth-o0-pWM.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Safari Extension:\"; ObjectID = \"Eth-o0-pWM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Safari Extension:"
+          }
+        }
+      }
+    },
+    "F7c-lm-g97.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Refresh Feeds:\"; ObjectID = \"F7c-lm-g97\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Refresh Feeds:"
+          }
+        }
+      }
+    },
+    "F8M-rS-und.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Release builds\"; ObjectID = \"F8M-rS-und\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Release builds"
+          }
+        }
+      }
+    },
+    "fOZ-zv-QTc.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"If you’re not sure, choose Release builds. Test builds may have bugs, which may include crashing bugs and data loss.\"; ObjectID = \"fOZ-zv-QTc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "If you’re not sure, choose Release builds. Test builds may have bugs, which may include crashing bugs and data loss."
+          }
+        }
+      }
+    },
+    "Fuf-rU-D6M.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Test builds\"; ObjectID = \"Fuf-rU-D6M\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Test builds"
+          }
+        }
+      }
+    },
+    "g2Q-oq-h2P.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Some content, such as videos and embedded social media posts, may require JavaScript to work correctly.\"; ObjectID = \"g2Q-oq-h2P\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Some content, such as videos and embedded social media posts, may require JavaScript to work correctly."
+          }
+        }
+      }
+    },
+    "GUo-0M-xMc.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Enable JavaScript\"; ObjectID = \"GUo-0M-xMc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enable JavaScript"
+          }
+        }
+      }
+    },
+    "iuH-lz-18x.title" : {
+      "comment" : "Class = \"NSViewController\"; title = \"General\"; ObjectID = \"iuH-lz-18x\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "General"
+          }
+        }
+      }
+    },
+    "jMV-2o-5Oh.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Medium\"; ObjectID = \"jMV-2o-5Oh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Medium"
+          }
+        }
+      }
+    },
+    "jnc-C5-4oI.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Send automatically\"; ObjectID = \"jnc-C5-4oI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Send automatically"
+          }
+        }
+      }
+    },
+    "kSv-Wu-NYx.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Privacy Policy\"; ObjectID = \"kSv-Wu-NYx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
+    "MQe-Za-N8J.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Article Theme:\"; ObjectID = \"MQe-Za-N8J\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Article Theme:"
+          }
+        }
+      }
+    },
+    "o1h-xo-elW.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Every 2 hours\"; ObjectID = \"o1h-xo-elW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Every 2 hours"
+          }
+        }
+      }
+    },
+    "ObP-qK-qDJ.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Safari\"; ObjectID = \"ObP-qK-qDJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Safari"
+          }
+        }
+      }
+    },
+    "Pkl-EA-Goa.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Default\"; ObjectID = \"Pkl-EA-Goa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Default"
+          }
+        }
+      }
+    },
+    "qcq-fU-Ks0.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Crash logs:\"; ObjectID = \"qcq-fU-Ks0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Crash logs:"
+          }
+        }
+      }
+    },
+    "Qjt-qr-WER.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Every hour\"; ObjectID = \"Qjt-qr-WER\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Every hour"
+          }
+        }
+      }
+    },
+    "qMe-6g-Vme.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Extra Large\"; ObjectID = \"qMe-6g-Vme\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Extra Large"
+          }
+        }
+      }
+    },
+    "roB-Mu-Ht7.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Small\"; ObjectID = \"roB-Mu-Ht7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Small"
+          }
+        }
+      }
+    },
+    "rZU-Tg-xwo.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Every 30 minutes\"; ObjectID = \"rZU-Tg-xwo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Every 30 minutes"
+          }
+        }
+      }
+    },
+    "SkZ-tE-blK.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Open feeds in default news reader\"; ObjectID = \"SkZ-tE-blK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open feeds in default news reader"
+          }
+        }
+      }
+    },
+    "t0a-LN-rCv.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Open web pages in background in browser\"; ObjectID = \"t0a-LN-rCv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open web pages in background in browser"
+          }
+        }
+      }
+    },
+    "uvx-O8-HvU.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Open feeds in NetNewsWire\"; ObjectID = \"uvx-O8-HvU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open feeds in NetNewsWire"
+          }
+        }
+      }
+    },
+    "xQu-QV-91i.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Article Text Size:\"; ObjectID = \"xQu-QV-91i\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Article Text Size:"
+          }
+        }
+      }
+    },
+    "ySX-5i-SP1.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Open Themes Folder\"; ObjectID = \"ySX-5i-SP1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open Themes Folder"
+          }
+        }
+      }
+    },
+    "zmy-xe-mVw.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Every 10 minutes\"; ObjectID = \"zmy-xe-mVw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Every 10 minutes"
+          }
+        }
+      }
+    },
+    "zqG-X2-E9b.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"App Updates:\"; ObjectID = \"zqG-X2-E9b\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "App Updates:"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

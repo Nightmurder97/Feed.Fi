@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "AK3-N5-4ke.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Item\"; ObjectID = \"AK3-N5-4ke\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item"
+          }
+        }
+      }
+    },
+    "lE1-xw-gjH.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Feeds\"; ObjectID = \"lE1-xw-gjH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Feeds"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
